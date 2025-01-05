@@ -1,7 +1,12 @@
+'use client'
+
+import { usePathname } from "next/navigation";
+
 import Navigation from "./navigation";
 
 import Link from "next/link"
 import Image from "next/image"
+
 
 import delivery from "@/public/delivery.svg"
 import distribution from "@/public/distribution.svg"
@@ -25,13 +30,15 @@ import hplogo from "@/public/hp.svg"
 import kassen from "@/public/kassen.svg"
 
 export default function Main() {
+    const path = usePathname()
+
     return (
         <>
             <section>
-                <div className="bg-[url('/heroimage.svg')] bg-no-repeat bg-cover">
+                <div className="bg-[url('/heroimage.svg')] bg-no-repeat bg-cover h-screen">
                     <Navigation />
-                    <div className="w-1/2 mx-32 mt-32">
-                        <h1 className="text-white font-bold font-ubuntu text-5xl w-3/4 leading-normal">The Most Comprehensive Printing & Technology Solutions in Indonesia</h1>
+                    <div className="max-w-7xl mx-auto mt-32"> {/* Change width to max-w-7xl & mx-auto */}
+                        <h1 className="text-white font-bold font-ubuntu text-5xl w-7/12 leading-normal">The Most Comprehensive Printing & Technology Solutions in Indonesia</h1>
                         <p className="text-white font-normal w-2/3 font-ubuntu text-sm mt-8 leading-loose mb-16">PT. Tujuh Anugrah Abadi, your trusted partner for ink, printers, and procurement solutions across Indonesia.</p>
                         <div className="pb-48">
                             <Link href={""} className="bg-[#1D2088] text-white font-ubuntu py-4 px-8">Contact Us</Link>
@@ -41,7 +48,7 @@ export default function Main() {
             </section>
 
             <section>
-                <div className="mx-32 my-20">
+                <div className="lg:max-w-7xl mx-auto my-20 bg-red-100">
                     <div className="grid grid-cols-3">
                         <div className="flex-col justify-items-center">
                             <Image src={distribution} alt="" className="mb-4"></Image>

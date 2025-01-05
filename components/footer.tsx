@@ -11,8 +11,8 @@ export default function Footer() {
     return (
         <>
             <div className="bg-[#062236]">
-                <div className="lg:pt-16 pt-12 pb-6">
-                    <div className="lg:mx-32 mx-6">
+                <div className="lg:pt-16 pt-12 pb-6 lg:max-w-7xl mx-auto">
+                    <div className="">
                         <div id="contact" className="lg:grid lg:grid-cols-2 lg:gap-2">
                             <div>
                                 <div className="hidden lg:block">
@@ -43,8 +43,8 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                            <div className="flex lg:grid lg:grid-cols-2 lg:gap-12 gap-8 lg:px-10">
-                                <div>
+                            <div className="flex lg:grid lg:grid-cols-2 lg:gap-12 gap-8">
+                                <div className="pl-10">
                                     <h1 className="text-white font-medium lg:text-2xl text-xl font-ubuntu">Quick Links</h1>
                                     <div className="flex flex-col mt-8 gap-y-4 font-ubuntu">
                                         <Link href={""} className="text-white lg:text-base text-sm">Home</Link>
@@ -55,7 +55,7 @@ export default function Footer() {
                                     </div>
                                 </div>
 
-                                <div>
+                                <div className="">
                                     <h1 className="text-white font-medium lg:text-2xl text-xl font-ubuntu">Find Us</h1>
                                     <div className="flex-col mt-7 gap-y-4 items-center font-ubuntu">
                                         <div className="flex">
