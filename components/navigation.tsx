@@ -19,10 +19,10 @@ export default function Navigation() {
                         <Image src={logo} alt="" className="w-28" />
                         <div className="flex font-ubuntu space-x-10 text-white mt-2">
                             <Link href={"/"}>Home</Link>
-                            <Link href={"/services"}>Services</Link>
+                            <Link href={""}>Services</Link>
                             <Link href={"/about-us"}>About Us</Link>
                             <Link href={"/products"}>Product</Link>
-                            <Link href={"/contract"}>Contact</Link>
+                            <Link href={""}>Contact</Link>
                         </div>
                     </div>
                 </div>
