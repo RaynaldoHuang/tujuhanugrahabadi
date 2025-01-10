@@ -8,8 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        '8xl': '90rem',
+      },
       fontFamily: {
         ubuntu: ['Ubuntu'],
+      },
+      svg: {
+        shapeRendering: "geometricPrecision",
+        textRendering: "optimizeLegibility",
       },
     },
   },
