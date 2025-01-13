@@ -27,7 +27,7 @@ export default function Main() {
         <>
             {/* Hero Section */}
             <section>
-                <div className="lg:bg-[url('/svg/heroimage.svg')] bg-[url('/svg/mobilehero.svg')] md:bg-[url('/svg/herotablet.svg')] bg-black bg-no-repeat bg-cover h-screen lg:pt-48 pt-60 md:pt-80">
+                <div className="lg:bg-[url('/svg/heroimage.svg')] bg-[url('/svg/mobilehero.svg')] md:bg-[url('/svg/herotablet.svg')] bg-black bg-no-repeat bg-cover lg:h-screen lg:pt-48 pt-40 md:pt-48 md:pb-28 pb-24">
                     <div className="lg:max-w-7xl lg:mx-auto mx-6 md:mx-10 md:flex md:flex-col md:items-center lg:items-start">
                         <h1 className="text-white font-bold font-ubuntu lg:text-5xl md:text-6xl text-3xl lg:w-[650px] leading-normal lg:leading-normal md:leading-normal text-center lg:text-left">The Most Comprehensive Printing & Technology Solutions in Indonesia</h1>
                         <p className="text-white font-normal lg:w-4/12 font-ubuntu lg:text-sm md:text-lg md:w-5/6 text-sm lg:mt-8 mt-4 lg:leading-loose md:leading-loose leading-normal lg:mb-16 mb-12 text-center lg:text-left">PT. Tujuh Anugrah Abadi, your trusted partner for ink, printers, and procurement solutions across Indonesia.</p>
@@ -287,7 +287,7 @@ export default function Main() {
             <div>
                 <FloatingWhatsApp
                     phoneNumber="6285928953264"
-                    accountName={"Lumibyte"}
+                    accountName={"PT. Tujuh Bintang Anugrah"}
                     avatar="/png/avatar.png"
                     allowEsc
                     className="floating-whatsapp"
