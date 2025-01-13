@@ -3,6 +3,7 @@ import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const ubuntu = Ubuntu({
   variable: "--font-ubuntu",
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${ubuntu.variable} antialiased`}>
+        <Navigation />
         {children}
         <Footer />
       </body>

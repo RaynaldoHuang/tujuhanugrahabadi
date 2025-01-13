@@ -8,7 +8,7 @@ import Navigation from "@/components/navigation"
 import categories from "@/utils/categories"
 import products from "@/utils/products"
 
-import epsonInk from "@/public/tintaepson.svg"
+import epsonInk from "@/public/svg/tintaepson.svg"
 import { useState } from "react"
 
 export default function Products() {
