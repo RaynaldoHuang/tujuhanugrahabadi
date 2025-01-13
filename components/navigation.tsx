@@ -6,7 +6,7 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-import logo from "@/public/logo.svg"
+import logo from "@/public/svg/logo.svg"
 
 export default function Navigation() {
     const path = usePathname()
@@ -16,16 +16,15 @@ export default function Navigation() {
     return (
         <>
             {/* dekstop view */}
-            <div className={`hidden lg:block ${path == '/' || path == '/about-us' ? "" : "bg-[#062236]"}`}> {/* Added logic to add background color to navbar */}
-                <div className="max-w-8xl mx-auto">
+            <div className="hidden lg:block" >
+                <div className="max-w-7xl mx-auto !z-50 absolute top-0 right-0 left-0 bg-transparent">
                     <div className="flex items-center justify-between py-8">
                         <Image src={logo} alt="" className="w-28" />
                         <div className="flex font-ubuntu space-x-10 text-white mt-2">
                             <Link href={"/"}>Home</Link>
                             <Link href={""}>Services</Link>
+                            <Link href={""}>Product</Link>
                             <Link href={"/about-us"}>About Us</Link>
-                            <Link href={"/products"}>Product</Link>
-                            <Link href={""}>Contact</Link>
                         </div>
                     </div>
                 </div>
@@ -33,9 +32,9 @@ export default function Navigation() {
 
             {/* mobile view */}
             <div className="lg:hidden">
-                <div className="mx-6">
+                <div className="mx-6 md:mx-10 absolute top-0 right-0 left-0 bg-transparent">
                     <div className="flex items-center justify-between py-8">
-                        <Image src={logo} alt="" width={90} />
+                        <Image src={logo} alt="" className="w-24 md:w-28" />
                         <button
                             onClick={toggleMenu}
                             type="button"
@@ -80,22 +79,16 @@ export default function Navigation() {
                         Services
                     </Link>
                     <Link
-                        href="#products"
-                        className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm font-ubuntu"
-                    >
-                        About Us
-                    </Link>
-                    <Link
-                        href="#testimonies"
+                        href=""
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm font-ubuntu"
                     >
                         Product
                     </Link>
                     <Link
-                        href="#testimonies"
+                        href="/about-us"
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm font-ubuntu"
                     >
-                        Contact
+                        About Us
                     </Link>
                 </div>
             </div>
