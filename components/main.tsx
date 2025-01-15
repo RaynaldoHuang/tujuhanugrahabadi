@@ -237,7 +237,7 @@ export default function Main() {
                     <div>
                         <div className="lg:grid lg:grid-cols-4 gap-2 grid grid-cols-2">
                             {
-                                productss.slice(0, 4).map((products: any) => (
+                                productss.slice(0, 4).map((products) => (
                                     <div key={products.id} className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
                                         <Image src={products.src} alt="" />
                                         <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">{products.title}</h1>

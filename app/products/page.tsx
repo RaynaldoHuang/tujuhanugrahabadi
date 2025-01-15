@@ -15,10 +15,10 @@ import tiktok from "@/public/svg/tiktok.svg"
 import { FloatingWhatsApp } from "react-floating-whatsapp"
 
 export default function Products() {
-    let CATEGORIES = categories
-    let PRODUCTS = products
+    const CATEGORIES = categories
+    const PRODUCTS = products
 
-    let [dynamicArr, setDynamicArr] = useState<any>(PRODUCTS)
+    const [dynamicArr, setDynamicArr] = useState<any>(PRODUCTS)
 
     /**
      * This function handles the changes made by user
@@ -27,19 +27,19 @@ export default function Products() {
      * @returns 
      */
     const handleChange = (event: any) => {
-        let search: any = document.getElementById('search')
-        let dropdown: any = document.getElementById('dropdown')
+        const search: any = document.getElementById('search')
+        const dropdown: any = document.getElementById('dropdown')
 
-        let tempArr = PRODUCTS
+        const tempArr = PRODUCTS
 
         if (dropdown.value == "") {
-            let result = tempArr.filter((product: any) => product.title.toLowerCase().includes(search.value.toLowerCase()))
+            const result = tempArr.filter((product: any) => product.title.toLowerCase().includes(search.value.toLowerCase()))
             setDynamicArr(result)
 
             return
         }
 
-        let result = tempArr.filter((product: any) => product.category == dropdown.value && product.title.toLowerCase().includes(search.value.toLowerCase()))
+        const result = tempArr.filter((product: any) => product.category == dropdown.value && product.title.toLowerCase().includes(search.value.toLowerCase()))
 
         setDynamicArr(result)
     }
