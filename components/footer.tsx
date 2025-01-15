@@ -2,8 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import logo from "@/public/svg/logo.svg"
-import shopee from "@/public/svg/shopee.svg"
-import tokped from "@/public/svg/tokped.svg"
+import tokpedwhite from "@/public/svg/tokpedwhite.svg"
+import shopeewhite from "@/public/svg/shopeewhite.svg"
 import instagram from "@/public/svg/instagram.svg"
 import wa from "@/public/svg/wa.svg"
 
@@ -49,10 +49,8 @@ export default function Footer() {
                                         <h1 className="text-white font-medium lg:text-2xl text-xl font-ubuntu">Quick Links</h1>
                                         <div className="flex flex-col mt-8 gap-y-4 font-ubuntu">
                                             <Link href={""} className="text-white lg:text-base text-sm">Home</Link>
-                                            <Link href={""} className="text-white lg:text-base text-sm">Services</Link>
                                             <Link href={""} className="text-white lg:text-base text-sm">About Us</Link>
                                             <Link href={""} className="text-white lg:text-base text-sm">Product</Link>
-                                            <Link href={""} className="text-white lg:text-base text-sm">Contact</Link>
                                         </div>
                                     </div>
 
@@ -60,12 +58,12 @@ export default function Footer() {
                                         <h1 className="text-white font-medium lg:text-2xl text-xl font-ubuntu">Find Us</h1>
                                         <div className="mt-7 gap-y-4 items-center font-ubuntu">
                                             <div className="flex">
-                                                <Image src={shopee} alt="" className="me-4 mb-4 w-6 lg:w-6" />
+                                                <Image src={shopeewhite} alt="" className="me-3 mb-4 w-6 lg:w-6" />
                                                 <Link href={"https://shopee.co.id/velureperfume"} className="text-white lg:text-base text-sm pt-1">Shopee</Link>
                                             </div>
 
                                             <div className="flex">
-                                                <Image src={tokped} alt="" className="me-3 mb-4 w-6 lg:w-6" />
+                                                <Image src={tokpedwhite} alt="" className="me-3 mb-4 w-6 lg:w-6" />
                                                 <Link href={"https://www.tokopedia.com/velure-perfume"} className="text-white lg:text-base text-sm pt-1">Tokopedia</Link>
                                             </div>
 
