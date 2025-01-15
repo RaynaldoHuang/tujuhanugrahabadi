@@ -12,7 +12,6 @@ import img3 from "@/public/svg/img3.svg"
 import check from "@/public/svg/check.svg"
 import hp from "@/public/png/hpac.png"
 import eps from "@/public/png/eps.png"
-import epsonprinter from "@/public/svg/epsonprinter.svg"
 import tokped from "@/public/svg/tokped.svg"
 import shopee from "@/public/svg/shopee.svg"
 import epson from "@/public/svg/epson.svg"
@@ -20,9 +19,44 @@ import canon from "@/public/svg/canon.svg"
 import logitech from "@/public/svg/Logitech.svg"
 import hplogo from "@/public/svg/hp.svg"
 import kassen from "@/public/svg/kassen.svg"
+import tiktok from "@/public/svg/tiktok.svg"
+
 import { FloatingWhatsApp } from "react-floating-whatsapp"
 
+import products from "@/utils/products"
+
+import { useEffect, useState } from "react"
+
 export default function Main() {
+    const productss = products
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    // Handle scroll event
+    const handleScroll = () => {
+        if (window.scrollY > 300) {
+            setIsVisible(true);  // Show button when scrolling more than 300px
+        } else {
+            setIsVisible(false); // Hide button when at the top
+        }
+    };
+
+    // Scroll to top function
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Smooth scrolling
+        });
+    };
+
+    // Add event listener on component mount
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <>
             {/* Hero Section */}
@@ -200,57 +234,47 @@ export default function Main() {
                         <p className="text-[#AAAAAA] text-center mt-4 lg:w-2/3 font-ubuntu lg:leading-normal mb-10 lg:text-base md:text-sm text-sm md:w-5/6">Discover premium ink, printers, and procurement solutions tailored to deliver exceptional value and efficiency for your business. To explore more products, you can visit our marketplace.</p>
                     </div>
 
-                    <div className="lg:mb-20 mb-14 flex flex-col items-center">
-                        <div className="flex space-x-4">
-                            <Link href={""} className="flex font-ubuntu lg:text-lg text-sm font-medium bg-[#1D2088] text-white lg:py-3 py-2 lg:px-6 px-5 items-center">
-                                <Image src={tokped} alt="" className="me-4 lg:w-6 w-7" />
-                                Tokopedia
-                            </Link>
-
-                            <Link href={""} className="flex font-ubuntu lg:text-lg text-sm font-medium bg-[#1D2088] text-white lg:py-3 py-2 lg:px-6 px-5 items-center">
-                                <Image src={shopee} alt="" className="me-4 lg:w-6 w-7" />
-                                Shopee
-                            </Link>
-                        </div>
-                    </div>
-
                     <div>
-                        <div className="lg:grid lg:grid-cols-4 gap-4 grid grid-cols-2">
-                            <div className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
-                                <Image src={epsonprinter} alt="" />
-                                <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">Printer EPSON L121</h1>
-                                <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
-                                    Expect great efficiency when printing with the EcoTank L121.
-                                </p>
-                                <Link href={""} className="bg-[#1D2088] lg:text-base text-sm text-white py-2 px-4">Shop Now</Link>
-                            </div>
+                        <div className="lg:grid lg:grid-cols-4 gap-2 grid grid-cols-2">
+                            {
+                                productss.slice(0, 4).map((products: any) => (
+                                    <div key={products.id} className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
+                                        <Image src={products.src} alt="" />
+                                        <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">{products.title}</h1>
+                                        <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
+                                            {products.desc}
+                                        </p>
+                                        <p className="text-center lg:text-base text-sm mb-2 line-clamp-2">
+                                            Click to checkout
+                                        </p>
+                                        <div className="flex lg:gap-4 gap-2">
+                                            <Link href={products.topedLink} className="border-[#409442] rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#40944146]">
+                                                <Image
+                                                    alt={products.alt}
+                                                    src={tokped}
+                                                />
+                                            </Link>
+                                            <Link href={products.shopeeLink} className="border-[#EE4D2D] rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#ee4d2d2c]">
+                                                <Image
+                                                    alt={products.alt}
+                                                    src={shopee}
+                                                />
+                                            </Link>
+                                            <Link href={products.tiktokLink} className="border-black rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#0000002a]">
+                                                <Image
+                                                    alt={products.alt}
+                                                    src={tiktok}
+                                                    className=""
+                                                />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
 
-                            <div className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
-                                <Image src={epsonprinter} alt="" />
-                                <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">Printer EPSON L121</h1>
-                                <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
-                                    Expect great efficiency when printing with the EcoTank L121.
-                                </p>
-                                <Link href={""} className="bg-[#1D2088] lg:text-base text-sm text-white py-2 px-4">Shop Now</Link>
-                            </div>
-
-                            <div className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
-                                <Image src={epsonprinter} alt="" />
-                                <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">Printer EPSON L121</h1>
-                                <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
-                                    Expect great efficiency when printing with the EcoTank L121.
-                                </p>
-                                <Link href={""} className="bg-[#1D2088] lg:text-base text-sm text-white py-2 px-4">Shop Now</Link>
-                            </div>
-
-                            <div className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
-                                <Image src={epsonprinter} alt="" />
-                                <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">Printer EPSON L121</h1>
-                                <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
-                                    Expect great efficiency when printing with the EcoTank L121.
-                                </p>
-                                <Link href={""} className="bg-[#1D2088] lg:text-base text-sm text-white py-2 px-4">Shop Now</Link>
-                            </div>
+                        <div className="flex justify-center mt-12">
+                            <Link href={"/products"} className="border-2 py-3 px-5 b border-[#1D2088] font-ubuntu lg:text-base text-sm text-[#1D2088] hover:bg-gray-100">More Products</Link>
                         </div>
                     </div>
                 </div>
@@ -293,6 +317,14 @@ export default function Main() {
                     className="floating-whatsapp"
                 />
             </div>
+
+            <button
+                onClick={scrollToTop}
+                className={`fixed bottom-28 right-9 bg-blue-500 text-white flex justify-center items-center w-14 h-14 rounded-full shadow-lg transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
+                    }`}
+            >
+                <p className="text-xl">↑</p>
+            </button>
         </>
     )
 }

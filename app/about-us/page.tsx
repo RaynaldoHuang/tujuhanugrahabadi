@@ -5,7 +5,7 @@ import Link from "next/link"
 
 import { FloatingWhatsApp } from "react-floating-whatsapp"
 import { gsap } from 'gsap';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import indonesiamap from "@/public/svg/indonesiamap.svg"
 import colorlogo from "@/public/svg/rgblogo.svg"
@@ -34,6 +34,33 @@ export default function AboutUs() {
                 }
             );
         });
+    }, []);
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    // Handle scroll event
+    const handleScroll = () => {
+        if (window.scrollY > 300) {
+            setIsVisible(true);  // Show button when scrolling more than 300px
+        } else {
+            setIsVisible(false); // Hide button when at the top
+        }
+    };
+
+    // Scroll to top function
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Smooth scrolling
+        });
+    };
+
+    // Add event listener on component mount
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
 
     return (
@@ -179,6 +206,14 @@ export default function AboutUs() {
                     </div>
                 </div>
             </section>
+
+            <button
+                onClick={scrollToTop}
+                className={`fixed bottom-28 right-9 bg-blue-500 text-white flex justify-center items-center w-14 h-14 rounded-full shadow-lg transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'
+                    }`}
+            >
+                <p className="text-xl">↑</p>
+            </button>
 
             <div>
                 <FloatingWhatsApp

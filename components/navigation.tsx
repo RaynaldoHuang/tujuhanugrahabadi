@@ -22,7 +22,6 @@ export default function Navigation() {
                         <Image src={logo} alt="" className="w-28" />
                         <div className="flex font-ubuntu space-x-10 text-white mt-2">
                             <Link href={"/"}>Home</Link>
-                            <Link href={""}>Services</Link>
                             <Link href={"/products"}>Product</Link>
                             <Link href={"/about-us"}>About Us</Link>
                         </div>
@@ -66,20 +65,14 @@ export default function Navigation() {
             {/* Mobile menu */}
             <div className={`${isOpen ? "absolute" : "hidden"} top-24 left-0 w-full bg-black z-10`} id="mobile-menu">
                 <div className="space-y-1 px-6 py-4">
-                    <Link   
+                    <Link
                         href="/"
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm md:text-base font-ubuntu"
                     >
                         Home
                     </Link>
                     <Link
-                        href="#features"
-                        className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm md:text-base font-ubuntu"
-                    >
-                        Services
-                    </Link>
-                    <Link
-                        href=""
+                        href="/products"
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm md:text-base font-ubuntu"
                     >
                         Product
