@@ -112,7 +112,7 @@ export default function AboutUs() {
                             </div>
                             <div className="lg:w-1/2 md:w-1/2">
                                 <h1 className="lg:text-4xl text-3xl font-ubuntu font-bold mb-8 mt-16 md:mt-0 lg:mt-0 hidden lg:block md:block">About The Company</h1>
-                                <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed mt-8 lg:mt-0">PT. Tujuh Anugrah Abadi embodies a company name that reflects themes of fortune, success, and eternity. This name conveys positive values, a long-term vision, and a commitment to quality and sustainability.The number seven, often referred to as the "lucky number seven," is believed to symbolize both fortune and the enduring nature of PT. Tujuh Anugrah Abadi’s business prospects.<br /> <br /> In a business context, the term "Anugrah" signifies the company's dedication to providing blessings and additional value to its customers and partners, with the overarching goal of creating a positive impact. According to the Indonesian Language Dictionary (KBBI), "abadi" means unchanging or eternal. This implies that PT. Tujuh Anugrah Abadi is committed to delivering unwavering quality to its customers.
+                                <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed mt-8 lg:mt-0">PT. Tujuh Anugrah Abadi embodies a company name that reflects themes of fortune, success, and eternity. This name conveys positive values, a long-term vision, and a commitment to quality and sustainability.The number seven, often referred to as the &ldquo;lucky number seven,&rdquo; is believed to symbolize both fortune and the enduring nature of PT. Tujuh Anugrah Abadi&apos;s business prospects.<br /> <br /> In a business context, the term &ldquo;Anugrah&rdquo; signifies the company&apos;s dedication to providing blessings and additional value to its customers and partners, with the overarching goal of creating a positive impact. According to the Indonesian Language Dictionary (KBBI), &ldquo;abadi&rdquo; means unchanging or eternal. This implies that PT. Tujuh Anugrah Abadi is committed to delivering unwavering quality to its customers.
                                 </p>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ export default function AboutUs() {
                     <div className="lg:max-w-7xl lg:mx-auto mx-6">
                         <div className="flex flex-col items-center">
                             <h1 className="lg:text-4xl md:text-3xl text-2xl font-ubuntu font-bold mb-5 text-white text-center">Feel Free to Reach Out for Support or Inquiries</h1>
-                            <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed mb-8 text-center">Let’s create something great together. Reach out to us today!</p>
+                            <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed mb-8 text-center">Let&apos;s create something great together. Reach out to us today!</p>
 
                             <Link href={""} className="flex items-center">
                                 <Image
