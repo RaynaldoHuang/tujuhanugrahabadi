@@ -9,7 +9,6 @@ import Link from "next/link"
 import logo from "@/public/svg/logo.svg"
 
 export default function Navigation() {
-    const path = usePathname()
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen(!isOpen)
 
@@ -68,18 +67,21 @@ export default function Navigation() {
                     <Link
                         href="/"
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm md:text-base font-ubuntu"
+                        onClick={() => setIsOpen(false)}
                     >
                         Home
                     </Link>
                     <Link
                         href="/products"
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm md:text-base font-ubuntu"
+                        onClick={() => setIsOpen(false)}
                     >
                         Product
                     </Link>
                     <Link
                         href="/about-us"
                         className="text-white hover:bg-[#062236] hover:text-white block px-3 py-2 rounded-md text-sm md:text-base font-ubuntu"
+                        onClick={() => setIsOpen(false)}
                     >
                         About Us
                     </Link>
