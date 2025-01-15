@@ -26,7 +26,7 @@ export default function Products() {
      * @param event 
      * @returns 
      */
-    const handleChange = (event: any) => {
+    const handleChange = () => {
         const search: any = document.getElementById('search')
         const dropdown: any = document.getElementById('dropdown')
 
@@ -87,7 +87,7 @@ export default function Products() {
                         <input
                             type="text"
                             id="search"
-                            onChange={(event: any) => handleChange(event)}
+                            onChange={handleChange}
                             placeholder="Type here to search ..."
                             className="py-3 px-3 flex-grow placeholder:text-sm lg:placeholder:text-base placeholder:font-ubuntu"
                         />
@@ -106,7 +106,7 @@ export default function Products() {
                     <div className="flex flex-row justify-between mb-10 items-center">
                         <h1 className="lg:text-3xl md:text-3xl text-2xl font-medium font-ubuntu">Product</h1>
                         <div className="border-2 flex">
-                            <select id="dropdown" className="py-2 px-4 lg:pr-10 focus:outline-none border-1 bg-white appearance-none bg-[url('/svg/dropdown.svg')] bg-no-repeat bg-right bg-[length:20px_20px] font-ubuntu" onChange={(event: any) => handleChange(event)}>
+                            <select id="dropdown" className="py-2 px-4 lg:pr-10 focus:outline-none border-1 bg-white appearance-none bg-[url('/svg/dropdown.svg')] bg-no-repeat bg-right bg-[length:20px_20px] font-ubuntu" onChange={handleChange}>
                                 <option value="" className="box-border">All</option>
                                 {
                                     CATEGORIES.map((c: any) => (
