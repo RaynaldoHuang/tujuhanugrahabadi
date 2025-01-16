@@ -81,7 +81,7 @@ export default function Products() {
                         </div>
                     </div>
 
-                    <div className="bg-[#062236] lg:py-6 py-3 lg:px-5 px-3 !z-50 absolute lg:top-[330px] top-[410px] md:top-[450px] transform -translate-x-1/2 w-5/6 left-1/2 flex items-center">
+                    <div className="bg-[#062236] lg:py-6 py-3 lg:px-5 px-3 !z-50 absolute lg:top-[330px] top-[410px] md:top-[450px] transform -translate-x-1/2 w-5/6 left-1/2 flex items-center lg:max-w-7xl">
                         <div className="bg-[#1D2088] py-3 lg:px-5 px-4">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
