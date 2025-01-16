@@ -6,6 +6,7 @@ import tokpedwhite from "@/public/svg/tokpedwhite.svg"
 import shopeewhite from "@/public/svg/shopeewhite.svg"
 import instagram from "@/public/svg/instagram.svg"
 import wa from "@/public/svg/wa.svg"
+import tiktokwhite from "@/public/svg/tiktokwhite.svg"
 
 export default function Footer() {
     return (
@@ -47,7 +48,7 @@ export default function Footer() {
                                 <div className="flex lg:grid lg:grid-cols-2 lg:gap-12 gap-12 md:gap-32 mt-10 lg:mt-0">
                                     <div className="lg:pl-10">
                                         <h1 className="text-white font-medium lg:text-2xl text-xl font-ubuntu">Quick Links</h1>
-                                        <div className="flex flex-col mt-8 gap-y-4 font-ubuntu">
+                                        <div className="flex flex-col mt-8 gap-y-5 font-ubuntu">
                                             <Link href={""} className="text-white lg:text-base text-sm">Home</Link>
                                             <Link href={""} className="text-white lg:text-base text-sm">About Us</Link>
                                             <Link href={""} className="text-white lg:text-base text-sm">Product</Link>
@@ -58,23 +59,28 @@ export default function Footer() {
                                         <h1 className="text-white font-medium lg:text-2xl text-xl font-ubuntu">Find Us</h1>
                                         <div className="mt-7 gap-y-4 items-center font-ubuntu">
                                             <div className="flex">
-                                                <Image src={shopeewhite} alt="" className="me-3 mb-4 w-6 lg:w-6" />
+                                                <Image src={shopeewhite} alt="" className="me-3 mb-5 w-6 lg:w-6" />
                                                 <Link href={"https://shopee.co.id/velureperfume"} className="text-white lg:text-base text-sm pt-1">Shopee</Link>
                                             </div>
 
                                             <div className="flex">
-                                                <Image src={tokpedwhite} alt="" className="me-3 mb-4 w-6 lg:w-6" />
+                                                <Image src={tokpedwhite} alt="" className="me-3 mb-5 w-6 lg:w-6" />
                                                 <Link href={"https://www.tokopedia.com/velure-perfume"} className="text-white lg:text-base text-sm pt-1">Tokopedia</Link>
                                             </div>
 
                                             <div className="flex">
-                                                <Image src={wa} alt="" className="me-3 w-6 mb-4 lg:w-6" />
+                                                <Image src={wa} alt="" className="me-3 w-6 mb-5 lg:w-6" />
                                                 <Link href={"https://wa.me/+6282184267456"} className="text-white lg:text-base text-sm">+62 812 3456 9336</Link>
                                             </div>
 
                                             <div className="flex">
-                                                <Image src={instagram} alt="" className="me-3 w-6 lg:w-6" />
+                                                <Image src={instagram} alt="" className="me-3 mb-5 w-6 lg:w-6" />
                                                 <Link href={"https://www.instagram.com/velureperfume"} className="text-white lg:text-base text-sm">Instagram</Link>
+                                            </div>
+
+                                            <div className="flex">
+                                                <Image src={tiktokwhite} alt="" className="me-3 w-6 lg:w-6" />
+                                                <Link href={"https://www.instagram.com/velureperfume"} className="text-white lg:text-base text-sm">Tiktok</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +88,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    
+
                     <hr className="border-1 border-white mt-16" />
 
                     <div>
