@@ -193,7 +193,13 @@ export default function Products() {
 
                     {/* Records */}
                     <div className="my-5">
-                        <p>{indexOfFirstItem + 1} to {indexOfLastItem > dynamicArr.length ? dynamicArr.length : indexOfLastItem} from {dynamicArr.length} items</p>
+                        {
+                            dynamicArr.length == 0 
+                            ? 
+                            <div></div>
+                            :
+                            <p>{indexOfFirstItem + 1} to {indexOfLastItem > dynamicArr.length ? dynamicArr.length : indexOfLastItem} from {dynamicArr.length} items</p>
+                        }
                     </div>
 
                     {/* Pagination */}
@@ -209,7 +215,13 @@ export default function Products() {
                         ))}
                     </div> */}
                     <div className="flex justify-center items-center mt-10 space-x-2">
-                        <Pagination key={"bordered"} initialPage={1} total={totalPages} variant={"bordered"} onChange={(page: any) => handlePageChange(page)} size="lg" className="text-white"/>
+                        {
+                            dynamicArr.length == 0
+                            ? 
+                            <div></div>
+                            :
+                            <Pagination key={"bordered"} initialPage={1} total={totalPages} variant={"bordered"} onChange={(page: any) => handlePageChange(page)} size="lg" className="text-white"/>
+                        }
                     </div>
 
                 </div>
