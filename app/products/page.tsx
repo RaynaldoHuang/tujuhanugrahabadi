@@ -19,6 +19,8 @@ export default function Products() {
 
     const [dynamicArr, setDynamicArr] = useState<any>(PRODUCTS);
     const [selectedCategory, setSelectedCategory] = useState<string>("");
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 8; // Jumlah produk per halaman
 
     /**
      * This function filters products based on the selected category
@@ -26,6 +28,7 @@ export default function Products() {
      */
     const handleFilter = (category: string) => {
         setSelectedCategory(category);
+        setCurrentPage(1); // Reset ke halaman pertama
 
         const search: any = document.getElementById("search");
         const tempArr = PRODUCTS;
@@ -37,6 +40,17 @@ export default function Products() {
         );
 
         setDynamicArr(result);
+    };
+
+    // Hitung data produk yang ditampilkan berdasarkan halaman
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItems = dynamicArr.slice(indexOfFirstItem, indexOfLastItem);
+
+    const totalPages = Math.ceil(dynamicArr.length / itemsPerPage);
+
+    const handlePageChange = (page: number) => {
+        setCurrentPage(page);
     };
 
     const [isVisible, setIsVisible] = useState(false);
@@ -82,14 +96,15 @@ export default function Products() {
                     </div>
 
                     <div className="bg-[#062236] lg:py-6 py-3 lg:px-5 px-3 !z-50 absolute lg:top-[330px] top-[410px] md:top-[450px] transform -translate-x-1/2 w-5/6 left-1/2 flex items-center lg:max-w-7xl">
-                        <div className="bg-[#1D2088] py-3 lg:px-5 px-4">
+                        <div className="relative w-full">
+                            {/* Icon Search */}
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth="1.5"
-                                stroke="white"
-                                className="size-6"
+                                stroke="currentColor"
+                                className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-500"
                             >
                                 <path
                                     strokeLinecap="round"
@@ -97,14 +112,18 @@ export default function Products() {
                                     d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
                                 />
                             </svg>
+
+                            {/* Input Field */}
+                            <input
+                                type="text"
+                                id="search"
+                                onChange={() => handleFilter(selectedCategory)}
+                                placeholder="Type here to search ..."
+                                className="w-full py-3 pl-10 pr-4 lg:text-base placeholder:text-sm lg:placeholder:text-base placeholder:font-ubuntu border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-base"
+                            />
+
                         </div>
-                        <input
-                            type="text"
-                            id="search"
-                            onChange={() => handleFilter(selectedCategory)}
-                            placeholder="Type here to search ..."
-                            className="py-3 px-3 flex-grow placeholder:text-sm lg:placeholder:text-base placeholder:font-ubuntu"
-                        />
+
                     </div>
                 </div>
             </section>
@@ -112,26 +131,26 @@ export default function Products() {
             {/* Categories */}
             <section>
                 <div className="lg:max-w-7xl lg:mx-auto my-10 mx-6 md:mx-10">
-                    <div className="flex flex-wrap justify-between gap-4 mb-10">
-                        {([{ id: 'all', value: '', title: 'All', icon: all }, ...CATEGORIES]).map((c: any) => (
+                    <div className="flex justify-between lg:gap-4 gap-6 mb-10 overflow-x-scroll lg:overflow-visible no-scrollbar">
+                        {([{ id: 'all', value: '', title: 'All Product', icon: all }, ...CATEGORIES]).map((c: any) => (
                             <div
                                 key={c.id}
                                 className={`cursor-pointer px-4 py-2 flex flex-col items-center ${selectedCategory === c.value ? "border-b-2 border-[#1D2088]" : ""
                                     }`}
                                 onClick={() => handleFilter(c.value)}
                             >
-                                <Image src={c.icon} alt={c.title} width={40} height={40} />
-                                <p className="font-ubuntu mt-6 text-sm">{c.title}</p>
+                                <Image src={c.icon} alt={c.title} width={40} height={40} className="w-10 h-10 object-contain" />
+                                <p className="font-ubuntu mt-6 text-sm text-center">{c.title}</p>
                             </div>
                         ))}
                     </div>
 
                     {/* Products */}
                     <div className="lg:grid lg:grid-cols-4 lg:gap-4 gap-2 grid grid-cols-2">
-                        {dynamicArr.length === 0 ? (
+                        {currentItems.length === 0 ? (
                             <p className="font-ubuntu">No results found ...</p>
                         ) : (
-                            dynamicArr.map((product: any) => (
+                            currentItems.map((product: any) => (
                                 <div
                                     key={product.id}
                                     className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center"
@@ -169,6 +188,19 @@ export default function Products() {
                                 </div>
                             ))
                         )}
+                    </div>
+
+                    {/* Pagination */}
+                    <div className="flex justify-center items-center mt-10 space-x-2">
+                        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                            <button
+                                key={page}
+                                onClick={() => handlePageChange(page)}
+                                className={`px-4 py-2 border rounded ${currentPage === page ? "bg-[#1D2088] text-white" : "bg-white text-[#1D2088]"}`}
+                            >
+                                {page}
+                            </button>
+                        ))}
                     </div>
                 </div>
             </section>

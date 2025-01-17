@@ -56,6 +56,61 @@ const products = [
         topedLink: "",
         tiktokLink: ""
     },
+    {
+        id: 5,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 6,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 7,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 8,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 9,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
 ]
 
 export default products
