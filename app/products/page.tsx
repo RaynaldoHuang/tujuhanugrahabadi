@@ -19,6 +19,8 @@ export default function Products() {
 
     const [dynamicArr, setDynamicArr] = useState<any>(PRODUCTS);
     const [selectedCategory, setSelectedCategory] = useState<string>("");
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 8; // Jumlah produk per halaman
 
     /**
      * This function filters products based on the selected category
@@ -26,6 +28,7 @@ export default function Products() {
      */
     const handleFilter = (category: string) => {
         setSelectedCategory(category);
+        setCurrentPage(1); // Reset ke halaman pertama
 
         const search: any = document.getElementById("search");
         const tempArr = PRODUCTS;
@@ -37,6 +40,17 @@ export default function Products() {
         );
 
         setDynamicArr(result);
+    };
+
+    // Hitung data produk yang ditampilkan berdasarkan halaman
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItems = dynamicArr.slice(indexOfFirstItem, indexOfLastItem);
+
+    const totalPages = Math.ceil(dynamicArr.length / itemsPerPage);
+
+    const handlePageChange = (page: number) => {
+        setCurrentPage(page);
     };
 
     const [isVisible, setIsVisible] = useState(false);
@@ -133,10 +147,10 @@ export default function Products() {
 
                     {/* Products */}
                     <div className="lg:grid lg:grid-cols-4 lg:gap-4 gap-2 grid grid-cols-2">
-                        {dynamicArr.length === 0 ? (
+                        {currentItems.length === 0 ? (
                             <p className="font-ubuntu">No results found ...</p>
                         ) : (
-                            dynamicArr.map((product: any) => (
+                            currentItems.map((product: any) => (
                                 <div
                                     key={product.id}
                                     className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center"
@@ -174,6 +188,19 @@ export default function Products() {
                                 </div>
                             ))
                         )}
+                    </div>
+
+                    {/* Pagination */}
+                    <div className="flex justify-center items-center mt-10 space-x-2">
+                        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                            <button
+                                key={page}
+                                onClick={() => handlePageChange(page)}
+                                className={`px-4 py-2 border rounded ${currentPage === page ? "bg-[#1D2088] text-white" : "bg-white text-[#1D2088]"}`}
+                            >
+                                {page}
+                            </button>
+                        ))}
                     </div>
                 </div>
             </section>
