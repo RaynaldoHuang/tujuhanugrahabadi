@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { Pagination } from "@heroui/react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -190,8 +191,13 @@ export default function Products() {
                         )}
                     </div>
 
+                    {/* Records */}
+                    <div className="my-5">
+                        <p>{indexOfFirstItem + 1} to {indexOfLastItem > dynamicArr.length ? dynamicArr.length : indexOfLastItem} from {dynamicArr.length} items</p>
+                    </div>
+
                     {/* Pagination */}
-                    <div className="flex justify-center items-center mt-10 space-x-2">
+                    {/* <div className="flex justify-center items-center mt-10 space-x-2">
                         {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
                             <button
                                 key={page}
@@ -201,7 +207,11 @@ export default function Products() {
                                 {page}
                             </button>
                         ))}
+                    </div> */}
+                    <div className="flex justify-center items-center mt-10 space-x-2">
+                        <Pagination key={"bordered"} initialPage={1} total={totalPages} variant={"bordered"} onChange={(page: any) => handlePageChange(page)} size="lg" className="text-white"/>
                     </div>
+
                 </div>
             </section>
 

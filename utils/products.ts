@@ -111,6 +111,127 @@ const products = [
         topedLink: "",
         tiktokLink: ""
     },
+    {
+        id: 10,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 11,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 12,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 13,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 14,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 15,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 16,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 17,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 18,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 19,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 20,
+        src: pita,
+        alt: "pita",
+        title: "Ribbon Cartridge 1",
+        desc: "Lorem ipsum dolor sit amet aliqua.",
+        category: "ribbonCartridge",
+        shopeeLink: "",
+        topedLink: "",
+        tiktokLink: ""
+    },
 ]
 
 export default products

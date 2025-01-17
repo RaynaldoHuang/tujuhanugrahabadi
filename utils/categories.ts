@@ -52,7 +52,7 @@ const categories = [
     },
     {
         id: 8,
-        title: "flashdisk",
+        title: "Flashdisk",
         value: "Flashdisk",
         icon: flashdisk
     },
