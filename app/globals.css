@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Untuk Chrome, Safari, dan Edge */
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* Untuk Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Untuk Firefox */
+}
