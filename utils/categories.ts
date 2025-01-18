@@ -53,7 +53,7 @@ const categories = [
     {
         id: 8,
         title: "Flashdisk",
-        value: "Flashdisk",
+        value: "flashdisk",
         icon: flashdisk
     },
 ];
