@@ -115,11 +115,11 @@ export default function Main() {
                                 <div className="mt-6">
                                     <div className="flex items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-black lg:text-base text-sm font-ubuntu">Guaranteed 100% Authentic</p>
+                                        <p className="text-gray-800 lg:text-base text-sm font-ubuntu font-medium">Guaranteed 100% Authentic</p>
                                     </div>
                                     <div className="flex mt-3 items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-black lg:text-base text-sm font-ubuntu">Directly Sourced from Trusted Manufacturers</p>
+                                        <p className="text-gray-800 lg:text-base text-sm font-ubuntu font-medium">Directly Sourced from Trusted Manufacturers</p>
                                     </div>
                                 </div>
                             </div>
@@ -136,11 +136,11 @@ export default function Main() {
                                     <div className="mt-6">
                                         <div className="flex items-center">
                                             <Image src={check} alt="" className="me-4" />
-                                            <p className="text-black font-ubuntu">Quick assistance for customer inquiries and complaints</p>
+                                            <p className="text-gray-800 font-ubuntu font-medium">Quick assistance for customer inquiries and complaints</p>
                                         </div>
                                         <div className="flex mt-3 items-center">
                                             <Image src={check} alt="" className="me-4" />
-                                            <p className="text-black font-ubuntu">Responsive to customer needs and issues</p>
+                                            <p className="text-gray-800 font-ubuntu font-medium">Responsive to customer needs and issues</p>
                                         </div>
                                     </div>
                                 </div>
@@ -165,11 +165,11 @@ export default function Main() {
                                     <div className="mt-6">
                                         <div className="flex items-center">
                                             <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                            <p className="text-black font-ubuntu lg:text-base text-sm">Quick assistance for customer inquiries and complaints</p>
+                                            <p className="text-gray-800 font-ubuntu lg:text-base text-sm font-medium">Quick assistance for customer inquiries and complaints</p>
                                         </div>
                                         <div className="flex mt-3 items-center">
                                             <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                            <p className="text-black font-ubuntu lg:text-base text-sm">Responsive to customer needs and issues</p>
+                                            <p className="text-gray-800 font-ubuntu lg:text-base text-sm font-medium">Responsive to customer needs and issues</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,11 +187,11 @@ export default function Main() {
                                 <div className="mt-6">
                                     <div className="flex items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-black font-ubuntu lg:text-base text-sm">Offering competitive prices on all products</p>
+                                        <p className="text-gray-800 font-ubuntu lg:text-base text-sm font-medium">Offering competitive prices on all products</p>
                                     </div>
                                     <div className="flex mt-3 items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-black font-ubuntu lg:text-base text-sm">Quality is maintained without compromising affordability</p>
+                                        <p className="text-gray-800 font-ubuntu lg:text-base text-sm font-medium">Quality is maintained without compromising affordability</p>
                                     </div>
                                 </div>
                             </div>

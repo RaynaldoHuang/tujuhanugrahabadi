@@ -78,19 +78,19 @@ export default function AboutUs() {
                         <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-center lg:items-center lg:gap-x-16 md:gap-x-8 mt-12 md:mt-16 lg:mt-16 md:flex-row md:justify-center md:items-center">
                             <div className="flex items-center mb-6 lg:mb-0 md:mb-0">
                                 <h1 className="font-ubuntu text-white font-bold text-6xl me-4 counter" data-value="14">0</h1>
-                                <p className="font-ubuntu text-[#4d4d4d] lg:text-sm text-xs">Years Of<br />Experience</p>
+                                <p className="font-ubuntu text-gray-300 lg:text-sm text-xs">Years Of<br />Experience</p>
                             </div>
                             <div className="w-0.5 h-10 bg-white hidden lg:block md:block"></div>
                             <div className="flex items-center mb-6 lg:mb-0 md:mb-0">
                                 <h1 className="font-ubuntu text-white font-bold text-6xl counter flex" data-value="88">0</h1>
                                 <h1 className="font-ubuntu text-white font-bold text-6xl me-4">+</h1>
-                                <p className="font-ubuntu text-[#4d4d4d] lg:text-sm text-xs">Companies In<br />Indonesia</p>
+                                <p className="font-ubuntu text-gray-300 lg:text-sm text-xs">Companies In<br />Indonesia</p>
                             </div>
                             <div className="w-0.5 h-10 bg-white hidden lg:block md:block"></div>
                             <div className="flex items-center">
                                 <h1 className="font-ubuntu text-white font-bold text-6xl counter" data-value="2000">0</h1>
                                 <h1 className="font-ubuntu text-white font-bold text-6xl me-4">+</h1>
-                                <p className="font-ubuntu text-[#4d4d4d] lg:text-sm text-xs">Clients Across<br />Indonesia</p>
+                                <p className="font-ubuntu text-gray-300 lg:text-sm text-xs">Clients Across<br />Indonesia</p>
                             </div>
                         </div>
 
