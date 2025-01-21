@@ -160,7 +160,7 @@ export default function Products() {
                                     <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">
                                         {product.title}
                                     </h1>
-                                    <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
+                                    <p className="text-center text-[#4d4d4d] lg:text-sm text-xs mb-5 line-clamp-2">
                                         {product.desc}
                                     </p>
                                     <p className="text-center lg:text-base text-sm mb-2 line-clamp-2">
@@ -237,7 +237,7 @@ export default function Products() {
 
             <div>
                 <FloatingWhatsApp
-                    phoneNumber="6285928953264"
+                    phoneNumber="6281234569336"
                     accountName={"PT. Tujuh Bintang Anugrah"}
                     avatar="/png/avatar.png"
                     allowEsc

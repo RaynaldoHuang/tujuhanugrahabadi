@@ -78,19 +78,19 @@ export default function AboutUs() {
                         <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-center lg:items-center lg:gap-x-16 md:gap-x-8 mt-12 md:mt-16 lg:mt-16 md:flex-row md:justify-center md:items-center">
                             <div className="flex items-center mb-6 lg:mb-0 md:mb-0">
                                 <h1 className="font-ubuntu text-white font-bold text-6xl me-4 counter" data-value="14">0</h1>
-                                <p className="font-ubuntu text-[#AAAAAA] lg:text-sm text-xs">Years Of<br />Experience</p>
+                                <p className="font-ubuntu text-[#4d4d4d] lg:text-sm text-xs">Years Of<br />Experience</p>
                             </div>
                             <div className="w-0.5 h-10 bg-white hidden lg:block md:block"></div>
                             <div className="flex items-center mb-6 lg:mb-0 md:mb-0">
                                 <h1 className="font-ubuntu text-white font-bold text-6xl counter flex" data-value="88">0</h1>
                                 <h1 className="font-ubuntu text-white font-bold text-6xl me-4">+</h1>
-                                <p className="font-ubuntu text-[#AAAAAA] lg:text-sm text-xs">Companies In<br />Indonesia</p>
+                                <p className="font-ubuntu text-[#4d4d4d] lg:text-sm text-xs">Companies In<br />Indonesia</p>
                             </div>
                             <div className="w-0.5 h-10 bg-white hidden lg:block md:block"></div>
                             <div className="flex items-center">
                                 <h1 className="font-ubuntu text-white font-bold text-6xl counter" data-value="2000">0</h1>
                                 <h1 className="font-ubuntu text-white font-bold text-6xl me-4">+</h1>
-                                <p className="font-ubuntu text-[#AAAAAA] lg:text-sm text-xs">Clients Across<br />Indonesia</p>
+                                <p className="font-ubuntu text-[#4d4d4d] lg:text-sm text-xs">Clients Across<br />Indonesia</p>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ export default function AboutUs() {
                             </div>
                             <div className="lg:w-1/2 md:w-1/2">
                                 <h1 className="lg:text-4xl text-3xl font-ubuntu font-bold mb-8 mt-16 md:mt-0 lg:mt-0 hidden lg:block md:block">About The Company</h1>
-                                <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed mt-8 lg:mt-0">PT. Tujuh Anugrah Abadi embodies a company name that reflects themes of fortune, success, and eternity. This name conveys positive values, a long-term vision, and a commitment to quality and sustainability.The number seven, often referred to as the &ldquo;lucky number seven,&rdquo; is believed to symbolize both fortune and the enduring nature of PT. Tujuh Anugrah Abadi&apos;s business prospects.<br /> <br /> In a business context, the term &ldquo;Anugrah&rdquo; signifies the company&apos;s dedication to providing blessings and additional value to its customers and partners, with the overarching goal of creating a positive impact. According to the Indonesian Language Dictionary (KBBI), &ldquo;abadi&rdquo; means unchanging or eternal. This implies that PT. Tujuh Anugrah Abadi is committed to delivering unwavering quality to its customers.
+                                <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#4d4d4d] leading-relaxed mt-8 lg:mt-0">PT. Tujuh Anugrah Abadi embodies a company name that reflects themes of fortune, success, and eternity. This name conveys positive values, a long-term vision, and a commitment to quality and sustainability.The number seven, often referred to as the &ldquo;lucky number seven,&rdquo; is believed to symbolize both fortune and the enduring nature of PT. Tujuh Anugrah Abadi&apos;s business prospects.<br /> <br /> In a business context, the term &ldquo;Anugrah&rdquo; signifies the company&apos;s dedication to providing blessings and additional value to its customers and partners, with the overarching goal of creating a positive impact. According to the Indonesian Language Dictionary (KBBI), &ldquo;abadi&rdquo; means unchanging or eternal. This implies that PT. Tujuh Anugrah Abadi is committed to delivering unwavering quality to its customers.
                                 </p>
                             </div>
                         </div>
@@ -127,11 +127,11 @@ export default function AboutUs() {
                             <div className="lg:w-1/3 mb-16 lg:mb-0 lg:me-20">
                                 <div className="mb-10">
                                     <h1 className="lg:text-4xl md:text-4xl text-3xl font-ubuntu font-bold mb-4">Our Vision</h1>
-                                    <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed">To become a leading national company of international standards that is technology-oriented and possesses the most comprehensive, extensive, and trusted network.</p>
+                                    <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#4d4d4d] leading-relaxed">To become a leading national company of international standards that is technology-oriented and possesses the most comprehensive, extensive, and trusted network.</p>
                                 </div>
                                 <div>
                                     <h1 className="lg:text-4xl md:text-4xl text-3xl font-ubuntu font-bold mb-4">Our Mission</h1>
-                                    <ul className="font-ubuntu lg:text-base md:text-base text-[#AAAAAA] text-sm list-disc list-inside leading-relaxed">
+                                    <ul className="font-ubuntu lg:text-base md:text-base text-[#4d4d4d] text-sm list-disc list-inside leading-relaxed">
                                         <li>To provide high-quality genuine products.</li>
                                         <li>To have a robust company infrastructure, skilled human resources, and an effective management system.</li>
                                         <li>To be a trusted partner providing reliable integrated solutions and high-quality services.</li>
@@ -157,7 +157,7 @@ export default function AboutUs() {
                     <div className="lg:max-w-7xl lg:mx-auto mx-6">
                         <div className="flex flex-col items-center">
                             <h1 className="lg:text-4xl md:text-3xl text-2xl font-ubuntu font-bold mb-5 text-white text-center">Feel Free to Reach Out for Support or Inquiries</h1>
-                            <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#AAAAAA] leading-relaxed mb-8 text-center">Let&apos;s create something great together. Reach out to us today!</p>
+                            <p className="font-ubuntu lg:text-base md:text-base text-sm text-[#aaaaaa] leading-relaxed mb-8 text-center">Let&apos;s create something great together. Reach out to us today!</p>
 
                             <Link href={""} className="flex items-center">
                                 <Image
@@ -217,7 +217,7 @@ export default function AboutUs() {
 
             <div>
                 <FloatingWhatsApp
-                    phoneNumber="6285928953264"
+                    phoneNumber="6281234569336"
                     accountName={"PT. Tujuh Bintang Anugrah"}
                     avatar="/png/avatar.png"
                     allowEsc

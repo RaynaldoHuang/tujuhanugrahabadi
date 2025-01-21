@@ -60,27 +60,27 @@ export default function Footer() {
                                         <div className="mt-7 gap-y-4 items-center font-ubuntu">
                                             <div className="flex">
                                                 <Image src={shopeewhite} alt="" className="me-3 mb-5 w-6 lg:w-6" />
-                                                <Link href={"https://shopee.co.id/velureperfume"} className="text-white lg:text-base text-sm pt-1">Shopee</Link>
+                                                <Link href={"https://shopee.co.id/superinkjkt"} className="text-white lg:text-base text-sm pt-1">Shopee</Link>
                                             </div>
 
                                             <div className="flex">
                                                 <Image src={tokpedwhite} alt="" className="me-3 mb-5 w-6 lg:w-6" />
-                                                <Link href={"https://www.tokopedia.com/velure-perfume"} className="text-white lg:text-base text-sm pt-1">Tokopedia</Link>
+                                                <Link href={"https://www.tokopedia.com/superinkjkt"} className="text-white lg:text-base text-sm pt-1">Tokopedia</Link>
                                             </div>
 
                                             <div className="flex">
                                                 <Image src={wa} alt="" className="me-3 w-6 mb-5 lg:w-6" />
-                                                <Link href={"https://wa.me/+6282184267456"} className="text-white lg:text-base text-sm">+62 812 3456 9336</Link>
+                                                <Link href={"https://wa.me/081234569336"} className="text-white lg:text-base text-sm">+62 812 3456 9336</Link>
                                             </div>
 
                                             <div className="flex">
                                                 <Image src={instagram} alt="" className="me-3 mb-5 w-6 lg:w-6" />
-                                                <Link href={"https://www.instagram.com/velureperfume"} className="text-white lg:text-base text-sm">Instagram</Link>
+                                                <Link href={"https://www.instagram.com/pt_tujuh_anugrah_abadi"} className="text-white lg:text-base text-sm">Instagram</Link>
                                             </div>
 
                                             <div className="flex">
                                                 <Image src={tiktokwhite} alt="" className="me-3 w-6 lg:w-6" />
-                                                <Link href={"https://www.instagram.com/velureperfume"} className="text-white lg:text-base text-sm">Tiktok</Link>
+                                                <Link href={"https://www.tiktok.com/@superinkjkt"} className="text-white lg:text-base text-sm">Tiktok</Link>
                                             </div>
                                         </div>
                                     </div>

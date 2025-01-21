@@ -66,7 +66,7 @@ export default function Main() {
                         <h1 className="text-white font-bold font-ubuntu lg:text-5xl md:text-6xl text-3xl lg:w-[650px] leading-normal lg:leading-normal md:leading-normal text-center lg:text-left">The Most Comprehensive Printing & Technology Solutions in Indonesia</h1>
                         <p className="text-white font-normal lg:w-4/12 font-ubuntu lg:text-sm md:text-lg md:w-5/6 text-sm lg:mt-8 mt-4 lg:leading-loose md:leading-loose leading-normal lg:mb-16 mb-12 text-center lg:text-left">PT. Tujuh Anugrah Abadi, your trusted partner for ink, printers, and procurement solutions across Indonesia.</p>
                         <div className="lg:pb-48 text-center lg:text-left">
-                            <Link href={""} className="bg-[#1D2088] text-white font-ubuntu lg:py-4 lg:px-8 lg:text-base text-sm py-4 px-6">Contact Us</Link>
+                            <Link href={"https://wa.me/081234569336"} className="bg-[#1D2088] text-white font-ubuntu lg:py-4 lg:px-8 lg:text-base text-sm py-4 px-6">Contact Us</Link>
                         </div>
                     </div>
                 </div>
@@ -79,17 +79,17 @@ export default function Main() {
                         <div className="flex flex-col items-center mb-10 lg:mb-0">
                             <Image src={distribution} alt="" className="mb-4"></Image>
                             <h1 className="lg:text-xl font-bold font-ubuntu">Extensive Distribution Network</h1>
-                            <p className="text-[#AAAAAA] lg:text-base text-sm text-center lg:mt-3 mt-2">Reaching various locations with an extensive<br /> distribution network.</p>
+                            <p className="text-[#4d4d4d] lg:text-base text-sm text-center lg:mt-3 mt-2">Reaching various locations with an extensive<br /> distribution network.</p>
                         </div>
                         <div className="flex flex-col items-center mb-10 lg:mb-0">
                             <Image src={delivery} alt="" className="mb-4"></Image>
                             <h1 className="lg:text-xl font-bold font-ubuntu">Fast Delivery</h1>
-                            <p className="text-[#AAAAAA] lg:text-base text-sm text-center mt-3">On-time delivery to ensure that your needs<br />are met promptly and efficiently.</p>
+                            <p className="text-[#4d4d4d] lg:text-base text-sm text-center mt-3">On-time delivery to ensure that your needs<br />are met promptly and efficiently.</p>
                         </div>
                         <div className="flex flex-col items-center">
                             <Image src={reponse} alt="" className="mb-4"></Image>
                             <h1 className="lg:text-xl font-bold font-ubuntu">Quick Response</h1>
-                            <p className="text-[#AAAAAA] lg:text-base text-sm text-center mt-3 font-ubuntu">Immediate response to every inquiry or request,<br />ensuring quick and efficient assistance.</p>
+                            <p className="text-[#4d4d4d] lg:text-base text-sm text-center mt-3 font-ubuntu">Immediate response to every inquiry or request,<br />ensuring quick and efficient assistance.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ export default function Main() {
                     <div className="lg:py-20 py-16 lg:max-w-7xl lg:mx-auto mx-6 md:mx-10">
                         <div className="flex flex-col items-center">
                             <h1 className="lg:text-4xl text-3xl font-bold font-ubuntu">Our Services</h1>
-                            <p className="text-[#AAAAAA] text-center mt-4 lg:w-1/2 md:w-5/6 font-ubuntu lg:leading-normal md:leading-normal leading-normal lg:text-base md:text-sm text-sm">PT. Tujuh Anugrah Abadi stands as a dedicated business partner for entrepreneurs who are enthusiastic and optimistic about achieving success in their ventures.</p>
+                            <p className="text-[#4d4d4d] text-center mt-4 lg:w-1/2 md:w-5/6 font-ubuntu lg:leading-normal md:leading-normal leading-normal lg:text-base md:text-sm text-sm">PT. Tujuh Anugrah Abadi stands as a dedicated business partner for entrepreneurs who are enthusiastic and optimistic about achieving success in their ventures.</p>
                         </div>
 
                         <div className="lg:flex md:flex lg:mt-20 mt-12 items-center">
@@ -110,16 +110,16 @@ export default function Main() {
                             </div>
                             <div className="lg:w-2/3 md:w-2/3">
                                 <h1 className="lg:text-4xl md:text-2xl text-xl font-bold font-ubuntu lg:mb-6 mb-4 lg:leading-normal mt-4 md:mt-0 lg:mt-0">Outstanding Service that<br />Prioritizes Customer Satisfaction</h1>
-                                <p className="text-[#AAAAAA] lg:mt-4 font-ubuntu leading-normal lg:text-base text-sm">
+                                <p className="text-[#4d4d4d] lg:mt-4 font-ubuntu leading-normal lg:text-base text-sm">
                                     Our ink and toner are made from high-quality materials designed to deliver the best results. Every product is 100% authentic and sourced directly from trusted manufacturers. With guaranteed quality, you can rely on maximum performance for all your printing needs.</p>
                                 <div className="mt-6">
                                     <div className="flex items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-[#AAAAAA] lg:text-base text-sm font-ubuntu">Guaranteed 100% Authentic</p>
+                                        <p className="text-black lg:text-base text-sm font-ubuntu">Guaranteed 100% Authentic</p>
                                     </div>
                                     <div className="flex mt-3 items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-[#AAAAAA] lg:text-base text-sm font-ubuntu">Directly Sourced from Trusted Manufacturers</p>
+                                        <p className="text-black lg:text-base text-sm font-ubuntu">Directly Sourced from Trusted Manufacturers</p>
                                     </div>
                                 </div>
                             </div>
@@ -131,16 +131,16 @@ export default function Main() {
                                 <div className="w-2/3">
                                     <h1 className="text-4xl font-bold font-ubuntu mb-6 leading-normal">Solid Teamwork to Achieve<br />the Best Results
                                     </h1>
-                                    <p className="text-[#AAAAAA] mt-4 font-ubuntu leading-normal">
+                                    <p className="text-[#4d4d4d] mt-4 font-ubuntu leading-normal">
                                         Fast and responsive assistance for customer inquiries and complaints. We offer a 100% customer satisfaction guarantee for all our products and services. Your trust is our top priority in delivering the best service.</p>
                                     <div className="mt-6">
                                         <div className="flex items-center">
                                             <Image src={check} alt="" className="me-4" />
-                                            <p className="text-[#AAAAAA] font-ubuntu">Quick assistance for customer inquiries and complaints</p>
+                                            <p className="text-black font-ubuntu">Quick assistance for customer inquiries and complaints</p>
                                         </div>
                                         <div className="flex mt-3 items-center">
                                             <Image src={check} alt="" className="me-4" />
-                                            <p className="text-[#AAAAAA] font-ubuntu">Responsive to customer needs and issues</p>
+                                            <p className="text-black font-ubuntu">Responsive to customer needs and issues</p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,16 +160,16 @@ export default function Main() {
                                 <div className="lg:w-2/3 md:w-2/3">
                                     <h1 className="lg:text-4xl md:text-2xl text-xl font-bold font-ubuntu lg:mb-6 md:mt-0 mt-4 leading-normal">Solid Teamwork to Achieve<br />the Best Results
                                     </h1>
-                                    <p className="text-[#AAAAAA] mt-4 font-ubuntu leading-normal lg:text-base text-sm">
+                                    <p className="text-[#4d4d4d] mt-4 font-ubuntu leading-normal lg:text-base text-sm">
                                         Fast and responsive assistance for customer inquiries and complaints. We offer a 100% customer satisfaction guarantee for all our products and services. Your trust is our top priority in delivering the best service.</p>
                                     <div className="mt-6">
                                         <div className="flex items-center">
                                             <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                            <p className="text-[#AAAAAA] font-ubuntu lg:text-base text-sm">Quick assistance for customer inquiries and complaints</p>
+                                            <p className="text-black font-ubuntu lg:text-base text-sm">Quick assistance for customer inquiries and complaints</p>
                                         </div>
                                         <div className="flex mt-3 items-center">
                                             <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                            <p className="text-[#AAAAAA] font-ubuntu lg:text-base text-sm">Responsive to customer needs and issues</p>
+                                            <p className="text-black font-ubuntu lg:text-base text-sm">Responsive to customer needs and issues</p>
                                         </div>
                                     </div>
                                 </div>
@@ -182,16 +182,16 @@ export default function Main() {
                             </div>
                             <div className="lg:w-2/3 md:w-2/3">
                                 <h1 className="lg:text-4xl md:text-2xl text-xl font-bold font-ubuntu lg:mb-6 md:mt-0 mt-4 lg:leading-normal">Competitive Prices for Our Products, Ensuring Affordability</h1>
-                                <p className="text-[#AAAAAA] mt-4 font-ubuntu leading-normal lg:text-base text-sm">
+                                <p className="text-[#4d4d4d] mt-4 font-ubuntu leading-normal lg:text-base text-sm">
                                     We offer competitive prices on all our products, ensuring that quality is maintained without compromising affordability. Each product is designed to provide added value to customers at a budget-friendly price. With competitive pricing, we are committed to delivering efficient and cost-effective solutions for your needs.</p>
                                 <div className="mt-6">
                                     <div className="flex items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-[#AAAAAA] font-ubuntu lg:text-base text-sm">Offering competitive prices on all products</p>
+                                        <p className="text-black font-ubuntu lg:text-base text-sm">Offering competitive prices on all products</p>
                                     </div>
                                     <div className="flex mt-3 items-center">
                                         <Image src={check} alt="" className="me-4 lg:w-6 w-5" />
-                                        <p className="text-[#AAAAAA] font-ubuntu lg:text-base text-sm">Quality is maintained without compromising affordability</p>
+                                        <p className="text-black font-ubuntu lg:text-base text-sm">Quality is maintained without compromising affordability</p>
                                     </div>
                                 </div>
                             </div>
@@ -231,7 +231,7 @@ export default function Main() {
                 <div className="lg:py-20 py-14 lg:max-w-7xl lg:mx-auto mx-6 md:mx-10">
                     <div className="flex flex-col items-center">
                         <h1 className="lg:text-4xl text-3xl font-bold font-ubuntu">Our Products</h1>
-                        <p className="text-[#AAAAAA] text-center mt-4 lg:w-2/3 font-ubuntu lg:leading-normal mb-10 lg:text-base md:text-sm text-sm md:w-5/6">Discover premium ink, printers, and procurement solutions tailored to deliver exceptional value and efficiency for your business. To explore more products, you can visit our marketplace.</p>
+                        <p className="text-[#4d4d4d] text-center mt-4 lg:w-2/3 font-ubuntu lg:leading-normal mb-10 lg:text-base md:text-sm text-sm md:w-5/6">Discover premium ink, printers, and procurement solutions tailored to deliver exceptional value and efficiency for your business. To explore more products, you can visit our marketplace.</p>
                     </div>
 
                     <div>
@@ -241,7 +241,7 @@ export default function Main() {
                                     <div key={products.id} className="bg-[#F5F5F5] lg:px-6 px-3 lg:py-6 py-4 flex flex-col items-center">
                                         <Image src={products.src} alt="" />
                                         <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">{products.title}</h1>
-                                        <p className="text-center text-[#AAAAAA] lg:text-sm text-xs mb-5 line-clamp-2">
+                                        <p className="text-center text-[#4d4d4d] lg:text-sm text-xs mb-5 line-clamp-2">
                                             {products.desc}
                                         </p>
                                         <p className="text-center lg:text-base text-sm mb-2 line-clamp-2">
@@ -310,7 +310,7 @@ export default function Main() {
 
             <div>
                 <FloatingWhatsApp
-                    phoneNumber="6285928953264"
+                    phoneNumber="6281234569336"
                     accountName={"PT. Tujuh Bintang Anugrah"}
                     avatar="/png/avatar.png"
                     allowEsc
