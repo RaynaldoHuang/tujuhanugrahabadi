@@ -193,7 +193,7 @@ const products = [
         desc: "L15150 L15160 L6550 L6580 L3150 L5190",
         category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Epson-008-Hitam-Warna-Original-untuk-Printer-L15150-L15160-L6550-L6580-L3150-L5190-i.99363915.27357668785?sp_atk=a13f0690-98d9-4b6e-be5b-ceb6699005a2",
-        topedLink: "",
+        topedLink: "https://www.tokopedia.com/superinkjkt/tinta-epson-008-original-for-printer-l6550-l6580-l15150-l15160-black-45ea7?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
         tiktokLink: ""
     },
     {
@@ -204,16 +204,16 @@ const products = [
         desc: "iP2770, iP2772",
         category: "ink",
         shopeeLink: "https://shopee.co.id/TINTA-CATRIDGE-CANON-PG-810-811-Warna-Hitam-Original-iP2770-iP2772-i.99363915.17068726578?sp_atk=e0fda95d-967c-4e95-94f8-4a11df979bc5",
-        topedLink: "",
+        topedLink: "https://www.tokopedia.com/superinkjkt/tinta-catridge-canon-pg-810-hitam-original-ip2770-ip2772-1730673782303065842?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
         tiktokLink: ""
     },
     {
         id: 16,
         src: pita,
-        alt: "pita",
+        alt: "Ribbon Cartridge",
         title: "RIBBON CARTRIDGE EPSON ERC-38",
         desc: "",
-        category: "ink",
+        category: "ribbonCartridge",
         shopeeLink: "https://shopee.co.id/RIBBON-CARTRIDGE-EPSON-ERC-38-PITA-ORIGINAL-i.99363915.28458597674?sp_atk=2de4d95c-616d-4ed6-824b-714ba9fcbfde",
         topedLink: "",
         tiktokLink: ""
@@ -221,21 +221,21 @@ const products = [
     {
         id: 17,
         src: pita,
-        alt: "pita",
-        title: "PRINTHEAD HP MOH51AA Black / MOH50AA",
-        desc: "HP DeskJet GT 5810 and 5820",
-        category: "ribbonCartridge",
+        alt: "Printer",
+        title: " ",
+        desc: "PRINTHEAD HP MOH51AA/MOH50AA",
+        category: "printer",
         shopeeLink: "https://shopee.co.id/PRINTHEAD-HP-MOH51AA-Black-MOH50AA-Color-Original-Printer-HP-DeskJet-GT-5810-and-5820-Ink-Tank-i.99363915.13692661582?sp_atk=0dcb60bf-35bb-4f39-9393-9b2fe5f099eb",
-        topedLink: "",
+        topedLink: "https://www.tokopedia.com/superinkjkt/printhead-hp-moh51aa-moh50aa-colour-black-original-hitam?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
         tiktokLink: ""
     },
     {
         id: 18,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta EPSON 003",
         desc: "Black, Cyan, Magenta, Yellow CMYK ",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-EPSON-003-Black-Cyan-Magenta-Yellow-CMYK-Original-100--i.99363915.16568826003?sp_atk=876134b7-3bdf-4d87-86b1-1e25b0b676d4",
         topedLink: "",
         tiktokLink: ""
@@ -243,10 +243,10 @@ const products = [
     {
         id: 19,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta HP 682",
         desc: "Catridge 1216 2335 2336 2337 2775",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-HP-682-Black-Color-Original-Ink-Catridge-1216-2335-2336-2337-2775-i.99363915.15884705601?sp_atk=d27c37dd-a5e2-4a7a-930f-2f5d2ba10525",
         topedLink: "",
         tiktokLink: ""
@@ -254,10 +254,10 @@ const products = [
     {
         id: 20,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer HP Original 680",
         desc: "",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Printer-HP-Original-680-Hitam-Black-Cartridge-Asli-Twin-Pack-Combo-2-Tri-Color-Colour-Warna-i.99363915.16868795114?sp_atk=35d45a7e-b433-41c3-82e4-34b508778d8d",
         topedLink: "",
         tiktokLink: ""
@@ -265,7 +265,7 @@ const products = [
     {
         id: 21,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta EPSON 664",
         desc: "T6641 T6642 T6643T 6644",
         category: "ribbonCartridge",
@@ -276,7 +276,7 @@ const products = [
     {
         id: 22,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta HP GT53 XL",
         desc: "HP115 315 415 520 580 615 670 720 750",
         category: "ribbonCartridge",
@@ -287,7 +287,7 @@ const products = [
     {
         id: 23,
         src: pita,
-        alt: "pita",
+        alt: "Ribbon",
         title: "Pita EPSON LQ-310",
         desc: "C13S015639",
         category: "ribbonCartridge",
@@ -298,10 +298,10 @@ const products = [
     {
         id: 24,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 103 A/AD",
         desc: "W1103AD",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-103-A-AD-Original-W1103AD-i.99363915.21303476137?sp_atk=a744b9ae-acdb-404f-aa5b-3d96dc6c61db",
         topedLink: "",
         tiktokLink: ""
@@ -309,10 +309,10 @@ const products = [
     {
         id: 25,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer Canon 71s",
         desc: "G1020 G2020 G3020 G3060",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-CANON-GI-71s-GI71s-GI-71s-G1020-G2020-G3020-G3060-Black-Cyan-Magenta-Yellow-i.99363915.15984694064?sp_atk=8a9aafbb-e5d0-49b9-ae67-7517a2ea581f",
         topedLink: "",
         tiktokLink: ""
@@ -320,10 +320,10 @@ const products = [
     {
         id: 26,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer HP 803",
         desc: "1110, 1115, 2130, 3630, 4520, 3830, 4650",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Printer-HP-803-Black-803-Colour-1Set-Original-1110-1115-2130-3630-4520-3830-4650-i.99363915.20103250030?sp_atk=0c56f3f6-88b5-4c29-9a1a-9528b1bdd981",
         topedLink: "",
         tiktokLink: ""
@@ -331,10 +331,10 @@ const products = [
     {
         id: 27,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 416A",
         desc: "W2040A W2041A W2042A W2043A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-416A-Original-4-Varian-Warna-(CMYK)-W2040A-W2041A-W2042A-W2043A-i.99363915.18003440722?sp_atk=9db10483-657f-4cf0-a7df-dbf58afc6bd7",
         topedLink: "",
         tiktokLink: ""
@@ -342,10 +342,10 @@ const products = [
     {
         id: 28,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "PRINTHEAD HP GT X4E75AA",
         desc: "",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/PRINTHEAD-HP-GT-X4E75AA-Original-Warna-Black-i.99363915.20503418178?sp_atk=cd56b482-fcbd-47df-a49b-5fd273c6fcf5",
         topedLink: "",
         tiktokLink: ""
@@ -353,10 +353,10 @@ const products = [
     {
         id: 29,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer HP 46",
         desc: "",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Printer-HP-46-1-Set-Original-i.99363915.19003263744?sp_atk=6f19b3df-4269-4b57-8e0f-0cffca8b3153",
         topedLink: "",
         tiktokLink: ""
@@ -364,10 +364,10 @@ const products = [
     {
         id: 30,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "TINTA CATRIDGE CANON PG811",
         desc: "iP2770, iP2772",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/TINTA-CATRIDGE-CANON-PG811-Colour-Original-iP2770-iP2772-i.99363915.24389279619?sp_atk=6aa769bb-e958-45f8-a856-a68e4df39295",
         topedLink: "",
         tiktokLink: ""
@@ -375,10 +375,10 @@ const products = [
     {
         id: 31,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "TINTA HP 975XL",
         desc: "L0S09AA L0S00AA L0S03AA L0S06AA",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/TINTA-HP-975XL-BK-C-M-Y-ORIGINAL-L0S09AA-L0S00AA-L0S03AA-L0S06AA-i.99363915.27607441795?sp_atk=2976d534-aff1-4896-b2ad-abe9d8fe55d4",
         topedLink: "",
         tiktokLink: ""
@@ -386,10 +386,10 @@ const products = [
     {
         id: 32,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner Printer HP Laserjet 119A",
         desc: "",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-Printer-HP-Laserjet-119A-Original-4-Varian-Warna-(CMYK)-i.99363915.17169257936?sp_atk=b0351884-1137-42e5-a991-782c370f6a5e",
         topedLink: "",
         tiktokLink: ""
@@ -397,10 +397,10 @@ const products = [
     {
         id: 33,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer HP 62 Original",
         desc: "5540, 5542, 5544, 5545, 5640, 5642, 5643, 5660, 5665, 7640, 7645.",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Printer-HP-62-Original-1-Set-5540-5542-5544-5545-5640-5642-5643-5660-5665-7640-7645.-i.99363915.15184698797?sp_atk=5bfdbd25-46f9-4241-819f-5a8f7a87209c",
         topedLink: "",
         tiktokLink: ""
@@ -408,10 +408,10 @@ const products = [
     {
         id: 34,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP LaserJet 204A",
         desc: "CF510 CF511 CF512 CF513",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-LaserJet-204A-Black-Color-CF510-CF511-CF512-CF513-i.99363915.17869265474?sp_atk=b28540e5-19c1-464d-91c3-a04b21dc6b5f",
         topedLink: "",
         tiktokLink: ""
@@ -419,10 +419,10 @@ const products = [
     {
         id: 35,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer HP GT52/ GT53 90ml",
         desc: "HP115 315 415 520 580 615 670 720 750",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Printer-HP-GT52-GT53-90ml-CMYK-Original-HP115-315-415-520-580-615-670-720-750-i.99363915.17769220173?sp_atk=becb67ce-c28e-4cec-9311-72a250a45032",
         topedLink: "",
         tiktokLink: ""
@@ -430,10 +430,10 @@ const products = [
     {
         id: 36,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 76A",
         desc: "CF276A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-76A-(CF276A)-Black-Original-i.99363915.17469240295?sp_atk=531d0d32-4c4b-4b53-b15a-183bb6003c96",
         topedLink: "",
         tiktokLink: ""
@@ -441,10 +441,10 @@ const products = [
     {
         id: 37,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 125A",
         desc: "",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-125A-Original-4-Varian-Warna-(CMYK)-i.99363915.13292700136?sp_atk=c10fb92a-d948-4f61-9cf6-e67f25259ab3",
         topedLink: "",
         tiktokLink: ""
@@ -452,10 +452,10 @@ const products = [
     {
         id: 38,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 12A",
         desc: "Q2612A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-12A-Black-Original-(Q2612A)-i.99363915.20903423019?sp_atk=f3420d99-cae3-4963-b17d-93befbf8e240",
         topedLink: "",
         tiktokLink: ""
@@ -463,10 +463,10 @@ const products = [
     {
         id: 39,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 53A",
         desc: "Q7553A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-53A-Black-Original-(Q7553A)-i.99363915.14484899976?sp_atk=6cb352b6-bcd6-42e0-a461-53195d306158",
         topedLink: "",
         tiktokLink: ""
@@ -474,10 +474,10 @@ const products = [
     {
         id: 40,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner HP Laserjet 85A",
         desc: "CE285A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-HP-Laserjet-85A-Black-Original-(CE285A)-i.99363915.10695777770?sp_atk=4447988a-b812-451f-8284-fbceb2a3e7a7",
         topedLink: "",
         tiktokLink: ""
@@ -485,7 +485,7 @@ const products = [
     {
         id: 41,
         src: pita,
-        alt: "pita",
+        alt: "Ribbon Cartridge",
         title: "CARTRIDGE TINTA HP 955 XL",
         desc: "HP 8210, 8216, 7740, 8710, 8720, 8730,8740",
         category: "ribbonCartridge",
@@ -496,10 +496,10 @@ const products = [
     {
         id: 42,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "TONER HP LASERJET 131A",
         desc: "CF210A CF211A CF212A CF212A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/TONER-HP-LASERJET-131A-ORIGINAL-CF210A-CF211A-CF212A-CF212A-i.99363915.25284521959?sp_atk=b66e2b30-3731-4678-9700-8aaf920ec61f",
         topedLink: "",
         tiktokLink: ""
@@ -507,10 +507,10 @@ const products = [
     {
         id: 43,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Epson 774",
         desc: "",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Epson-774-black-Original-i.99363915.29961923886?sp_atk=aa75c226-3526-469a-a3a3-8c250af1719b",
         topedLink: "",
         tiktokLink: ""
@@ -518,10 +518,10 @@ const products = [
     {
         id: 44,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Toner Printer HP Laserjet 126A",
         desc: "CE310A CE311A CE312A CE313A",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Toner-Printer-HP-Laserjet-126A-Original-4-Varian-Warna-(CMYK)-CE310A-CE311A-CE312A-CE313A-i.99363915.16069376144?sp_atk=8ba345a0-9135-48ab-8547-ae153390fa95",
         topedLink: "",
         tiktokLink: ""
@@ -529,10 +529,10 @@ const products = [
     {
         id: 45,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer Cartridge HP 704",
         desc: "K010a",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Printer-Cartridge-HP-704-Black-Tri-Color-1Set-Original-K010a-i.99363915.12192574769?sp_atk=a37669cf-077a-48cf-a951-8c56a810b78f",
         topedLink: "",
         tiktokLink: ""
@@ -540,10 +540,10 @@ const products = [
     {
         id: 46,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "PRINTHEAD CANON BH7/CH7",
         desc: "CA91 CA92",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/PRINTHEAD-CANON-BH7-CH7-Warna-Hitam-CA91-CA92-i.99363915.20003220948?sp_atk=9f76754e-5aa4-47a1-8040-acc94faf6eae",
         topedLink: "",
         tiktokLink: ""
@@ -551,10 +551,10 @@ const products = [
     {
         id: 47,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer CANON 790",
         desc: "G1000, G2000, G3000, G4000, G1010, G2010, G3010, G4010",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/TInta-Printer-CANON-790-Original-Black-G1000-G2000-G3000-G4000-G1010-G2010-G3010-G4010-i.99363915.17768804886?sp_atk=63e7ca8e-734b-4fae-a70b-0bff305da83a",
         topedLink: "",
         tiktokLink: ""
@@ -562,10 +562,10 @@ const products = [
     {
         id: 48,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Printer CANON 790",
         desc: "G1000, G2000, G3000, G4000, G1010, G2010, G3010, G4010",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/TInta-Printer-CANON-790-Original-Black-G1000-G2000-G3000-G4000-G1010-G2010-G3010-G4010-i.99363915.17768804886?sp_atk=63e7ca8e-734b-4fae-a70b-0bff305da83a",
         topedLink: "",
         tiktokLink: ""
@@ -573,10 +573,10 @@ const products = [
     {
         id: 49,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "TINTA CATRIDGE HP 678",
         desc: "HP1515 2515 2545 2645 3545 4515 4645",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/TINTA-CATRIDGE-HP-678-Ink-Catridge(CZ108AA)-For-Printer-HP1515-2515-2545-2645-3545-4515-4645-i.99363915.17469216662?sp_atk=021a62bb-5753-4208-98cf-d261433d3fe6",
         topedLink: "",
         tiktokLink: ""
@@ -584,7 +584,7 @@ const products = [
     {
         id: 50,
         src: pita,
-        alt: "pita",
+        alt: "Ribbon Cartridge",
         title: "Pita EPSON Ribbon LQ 2190/2180/2070/2080",
         desc: "C13S015531",
         category: "ribbonCartridge",
@@ -595,10 +595,10 @@ const products = [
     {
         id: 51,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta HP 682 ",
         desc: "1216 2335 2336 2337 2775",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-HP-682-Black-Color-Original-Ink-Catridge-1216-2335-2336-2337-2775-i.99363915.15884705601?sp_atk=6ee8aa59-d8ce-498b-bba5-cd730a012809",
         topedLink: "",
         tiktokLink: ""
@@ -606,10 +606,10 @@ const products = [
     {
         id: 52,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta HP 802",
         desc: "CH561ZZ CH562ZZ",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-HP-802-Black-Hitam-Colour-Warna-Original-CH561ZZ-CH562ZZ-i.99363915.17469221694?sp_atk=dcb5a52c-f1dc-48da-86ed-579370c52c1b",
         topedLink: "",
         tiktokLink: ""
@@ -617,10 +617,10 @@ const products = [
     {
         id: 53,
         src: pita,
-        alt: "pita",
+        alt: "Ink",
         title: "Tinta Brother D60",
         desc: "DCP-T310 DCP-T510W DCP-T710W MFC-T810W MFC-T910DW",
-        category: "ribbonCartridge",
+        category: "ink",
         shopeeLink: "https://shopee.co.id/Tinta-Brother-D60-black-untuk-Printer-DCP-T310-DCP-T510W-DCP-T710W-MFC-T810W-MFC-T910DW-i.99363915.25284460942?sp_atk=bf19611c-9f33-4f78-8afd-13f62633a130",
         topedLink: "",
         tiktokLink: ""
@@ -867,6 +867,40 @@ const products = [
         topedLink: "",
         tiktokLink: ""
     },
+    {
+        id: 76,
+        src: pita,
+        alt: "pita",
+        title: "Lakban Selotip Bening 72 Yard/90 Yard/100 Yard x 45 mm murah Kuat Tebal",
+        desc: "",
+        category: "ribbonCartridge",
+        shopeeLink: "https://shopee.co.id/Lakban-Selotip-Bening-72-Yard-90-Yard-100-Yard-x-45-mm-murah-Kuat-Tebal-i.99363915.26320522148?sp_atk=807829fa-38d8-4df6-b947-71cf1296bd9c",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 77,
+        src: pita,
+        alt: "pita",
+        title: "Lakban Selotip Coklat 72 yard x 45 mm /lakban Tebal/Lakban murah/Lakban Kuat/Lakban Tebal",
+        desc: "",
+        category: "ribbonCartridge",
+        shopeeLink: "https://shopee.co.id/Lakban-Selotip-Coklat-72-yard-x-45-mm-lakban-Tebal-Lakban-murah-Lakban-Kuat-Lakban-Tebal-i.99363915.24289438809?sp_atk=2a75d1b4-da4d-4f7b-a614-0e86c9bd1bc8",
+        topedLink: "",
+        tiktokLink: ""
+    },
+    {
+        id: 78,
+        src: pita,
+        alt: "pita",
+        title: "Lakban Selotip Coklat 72 yard x 45 mm /lakban Tebal/Lakban murah/Lakban Kuat/Lakban Tebal",
+        desc: "",
+        category: "ribbonCartridge",
+        shopeeLink: "https://shopee.co.id/Lakban-Selotip-Coklat-72-yard-x-45-mm-lakban-Tebal-Lakban-murah-Lakban-Kuat-Lakban-Tebal-i.99363915.24289438809?sp_atk=2a75d1b4-da4d-4f7b-a614-0e86c9bd1bc8",
+        topedLink: "",
+        tiktokLink: ""
+    },
+
 ]
 
 export default products
