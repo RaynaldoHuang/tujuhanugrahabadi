@@ -83,6 +83,19 @@ import thermal100150 from "@/public/png/thermal/Thermal_100x150.jpg"
 
 import lakban from "@/public/png/lakban/Lakban.jpg"
 
+import casio320p from "@/public/png/calculator/Casio_320P.jpg"
+import casiodh12 from "@/public/png/calculator/Casio_DH12.jpg"
+import casiodh14 from "@/public/png/calculator/Casio_DH14.jpg"
+import casiodh16 from "@/public/png/calculator/Casio_DH16.jpg"
+import casiodj120dplus from "@/public/png/calculator/Casio_DJ120DPlus.jpg"
+import casiofx82es from "@/public/png/calculator/Casio_FX82ESPlus2.jpg"
+import casiofx350es from "@/public/png/calculator/Casio_FX350ESPlus2.jpg"
+import casiofx350ms from "@/public/png/calculator/Casio_FX350MS2.jpg"
+import casiofx991 from "@/public/png/calculator/Casio_FX991DPlus2.jpg"
+import casiohr100 from "@/public/png/calculator/Casio_HR100RC.jpg"
+import casiomj100 from "@/public/png/calculator/Casio_MJ100DPlus.jpg"
+import casiomx12 from "@/public/png/calculator/Casio_MX12B.jpg"
+
 
 const products = [
     {
@@ -919,6 +932,138 @@ const products = [
         category: "tape",
         shopeeLink: "https://shopee.co.id/Lakban-Selotip-Coklat-72-yard-x-45-mm-lakban-Tebal-Lakban-murah-Lakban-Kuat-Lakban-Tebal-i.99363915.24289438809?sp_atk=2a75d1b4-da4d-4f7b-a614-0e86c9bd1bc8",
         topedLink: "https://www.tokopedia.com/superinkjkt/lakban-bening-coklat-100-yard-90-yard-72-yard-45mm-45-micron-45x72-1pcs-ef167?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 79,
+        src: casio320p,
+        alt: "pita",
+        title: "Calculator Casio SX-320P",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-Casio-SX-320P-Kalkulator-Saku-Portable-12-Digit-mini-i.99363915.29957230368?sp_atk=de2506c2-f7f5-4614-b87a-bc7679381f68&xptdk=de2506c2-f7f5-4614-b87a-bc7679381f68",
+        topedLink: "https://www.tokopedia.com/superinkjkt/calculator-casio-sx-320p-kalkulator-saku-portable-12-digit-calculator-pocket-original?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 80,
+        src: casiomx12,
+        alt: "pita",
+        title: "Calculator Casio MX-12B",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/KALKULATOR-CASIO-MX-12B-BK-WE-GN-LB-PK-i.99363915.27157144874?sp_atk=1685d90b-3b85-4e99-a221-758ca7658411&xptdk=1685d90b-3b85-4e99-a221-758ca7658411",
+        topedLink: "https://www.tokopedia.com/superinkjkt/calculator-casio-mx-12b-desktop-kalkulator-12-digit-new-original-putih-48652?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 81,
+        src: casiomj100,
+        alt: "pita",
+        title: "Calculator Casio MJ 100D",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-Toko-Dagang-Casio-MJ-100D-Plus-10-Digit-Check-Correct-Original-Garansi-Resmi-i.99363915.24084465589?sp_atk=f949698c-0c29-4103-9259-402aee8ea2b9&xptdk=f949698c-0c29-4103-9259-402aee8ea2b9",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-desktop-casio-mj-100d-plus-10-digit-check-correct-original?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 82,
+        src: casiohr100,
+        alt: "pita",
+        title: "Calculator Casio HR 100RC",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-Casio-HR-100RC-12-Digit-Printing-kalkulator-Struk-Kalkulator-Kasir-New-i.99363915.24684459758?sp_atk=3e47c26a-2c14-4869-b37a-4e85308791f6&xptdk=3e47c26a-2c14-4869-b37a-4e85308791f6",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-casio-hr-100rc-12-digit-printing-kalkulator-struk-kalkulator-kasir-new?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 83,
+        src: casiofx991,
+        alt: "pita",
+        title: "Calculator Casio FX 991",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-CASIO-FX-991-IDPlus-2nd-edition-Kalkulator-Sekolah-Kuliah-Calculator-Scientificq-i.99363915.26357236931?sp_atk=c15baf3d-40fa-41ed-9054-96aed92a6d1d&xptdk=c15baf3d-40fa-41ed-9054-96aed92a6d1d",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-casio-fx-991-id-plu?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 84,
+        src: casiofx350ms,
+        alt: "pita",
+        title: "Calculator Casio FX 350 MS 2",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/KALKULATOR-CASIO-FX-350-MS-BLACK-i.99363915.27407214997?sp_atk=3b2baf63-0d30-4e6d-ab7d-7fa7637aa789&xptdk=3b2baf63-0d30-4e6d-ab7d-7fa7637aa789",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-casio-fx-350-ms-plus?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 85,
+        src: casiofx350es,
+        alt: "pita",
+        title: "Calculator Casio FX 350 ES Plus 2",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/CASIO-KALKULATOR-FX-350ES-PLUS-Kalkulator-Sekolah-Kuliah-Scientific-Saintifik-252-fungsi-i.99363915.26807222867?sp_atk=f9350f9e-5338-4047-b8e1-e1306fad14d4&xptdk=f9350f9e-5338-4047-b8e1-e1306fad14d4",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-casio-fx-350-es-plus-2?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 86,
+        src: casiofx82es,
+        alt: "pita",
+        title: "Calculator Casio FX 82 ES Plus 2",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-CASIO-FX-82-ES-PLUS-FX-82ES-Plus-Calculator-Scientific-Sekolah-i.99363915.24634453728?sp_atk=720fb2aa-90f6-475c-9ed8-aee52eed1a5a&xptdk=720fb2aa-90f6-475c-9ed8-aee52eed1a5a",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-casio-fx-82es-plus-calculator-scientific-fx-82-es-plus-2nd-edition-resmi-asahi-hitam-7fa44?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 87,
+        src: casiodj120dplus,
+        alt: "pita",
+        title: "Calculator Casio DJ 120 D Plus",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/KALKULATOR-Casio-DJ-120-D-Plus-CHECK-CORRECT-ORIGINAL-GARANSI-RESMI-MURAH-i.99363915.24884458500?sp_atk=9cd26d90-5288-4885-95eb-2b25dc5f4794&xptdk=9cd26d90-5288-4885-95eb-2b25dc5f4794",
+        topedLink: "https://www.tokopedia.com/superinkjkt/calculator-casio-dj-120-d-plus-recheck-kalkulator?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 88,
+        src: casiodh16,
+        alt: "pita",
+        title: "Calculator Casio DH-16",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-Casio-DH-16-Original-kalkulator-i.99363915.24534457248?sp_atk=d19c157e-7820-40a2-9b11-cff222381632&xptdk=d19c157e-7820-40a2-9b11-cff222381632",
+        topedLink: "https://www.tokopedia.com/superinkjkt/calculator-casio-dj-120-d-plus-recheck-kalkulator?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 89,
+        src: casiodh14,
+        alt: "pita",
+        title: "Calculator Casio DH-14",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-Casio-DH-14-(14-Digit)-kalculator-Casio-i.99363915.25584453908?sp_atk=d72132ae-66c6-41b3-ae6c-c0cecd9bd715&xptdk=d72132ae-66c6-41b3-ae6c-c0cecd9bd715",
+        topedLink: "https://www.tokopedia.com/superinkjkt/kalkulator-casio-dh-14-original?extParam=whid%3D3280826%26src%3Dshop&aff_unique_id=&channel=others&chain_key=",
+        tiktokLink: ""
+    },
+    {
+        id: 90,
+        src: casiodh12,
+        alt: "pita",
+        title: "Calculator Casio DH-12",
+        desc: "",
+        category: "calculator",
+        shopeeLink: "https://shopee.co.id/Kalkulator-Casio-DH-12-BK-White-12-Digits-Kalkulator-Original-Garansi-Resmi-i.99363915.28507219913?sp_atk=cab32d75-3f61-4426-a48b-fcd10e406a74&xptdk=cab32d75-3f61-4426-a48b-fcd10e406a74",
+        topedLink: "https://www.tokopedia.com/superinkjkt/calculator-casio-dh-12-bk-white-12-digits-kalkulator-original-hitam-87334?extParam=src%3Dshop%26whid%3D3280826&aff_unique_id=&channel=others&chain_key=",
         tiktokLink: ""
     },
 
