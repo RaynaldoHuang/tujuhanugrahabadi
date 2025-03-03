@@ -96,7 +96,7 @@ export default function Products() {
                         </div>
                     </div>
 
-                    <div className="bg-[#062236] lg:py-6 py-3 lg:px-5 px-3 !z-50 absolute lg:top-[330px] top-[410px] md:top-[450px] transform -translate-x-1/2 w-5/6 left-1/2 flex items-center lg:max-w-7xl">
+                    <div className="bg-[#062236] lg:py-6 py-3 lg:px-5 px-3 !z-50 absolute lg:-mt-[50px] -mt-[50px] md:-mt-[40px] transform -translate-x-1/2 w-5/6 left-1/2 flex items-center lg:max-w-7xl">
                         <div className="relative w-full">
                             {/* Icon Search */}
                             <svg
@@ -160,31 +160,46 @@ export default function Products() {
                                     <h1 className="font-ubuntu font-normal lg:text-xl text-sm mt-3 mb-2 text-center">
                                         {product.title}
                                     </h1>
-                                    <p className="text-center text-[#4d4d4d] lg:text-sm text-xs mb-5 line-clamp-2">
+                                    <p className="text-center text-[#4d4d4d] lg:text-sm text-xs mb-5 line-clamp-3">
                                         {product.desc}
                                     </p>
                                     <p className="text-center lg:text-base text-sm mb-2 line-clamp-2">
                                         Click to checkout
                                     </p>
                                     <div className="flex lg:gap-4 gap-2">
-                                        <Link
-                                            href={product.topedLink}
-                                            className="border-[#409442] rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#40944146]"
-                                        >
-                                            <Image alt={product.alt} src={tokped} />
-                                        </Link>
-                                        <Link
-                                            href={product.shopeeLink}
-                                            className="border-[#EE4D2D] rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#ee4d2d2c]"
-                                        >
-                                            <Image alt={product.alt} src={shopee} />
-                                        </Link>
-                                        <Link
-                                            href={product.tiktokLink}
-                                            className="border-black rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#0000002a]"
-                                        >
-                                            <Image alt={product.alt} src={tiktok} className="" />
-                                        </Link>
+                                        {
+                                            product.topedLink == "" ?
+                                            <div></div>
+                                            :
+                                            <Link
+                                                href={product.topedLink}
+                                                className="border-[#409442] rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#40944146]"
+                                            >
+                                                <Image alt={product.alt} src={tokped} />
+                                            </Link>
+                                        }
+                                        {
+                                            product.shopeeLink == "" ?
+                                            <div></div>
+                                            :
+                                            <Link
+                                                href={product.shopeeLink}
+                                                className="border-[#EE4D2D] rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#ee4d2d2c]"
+                                            >
+                                                <Image alt={product.alt} src={shopee} />
+                                            </Link>
+                                        }
+                                        {
+                                            product.tiktokLink == "" ?
+                                            <div></div>
+                                            :
+                                            <Link
+                                                href={product.tiktokLink}
+                                                className="border-black rounded-full border-2 lg:w-12 lg:h-12 md:w-12 md:h-12 w-11 h-11 px-2.5 py-2.5 flex hover:bg-[#0000002a]"
+                                            >
+                                                <Image alt={product.alt} src={tiktok} className="" />
+                                            </Link>
+                                        }
                                     </div>
                                 </div>
                             ))
@@ -194,8 +209,8 @@ export default function Products() {
                     {/* Records */}
                     <div className="my-5">
                         {
-                            dynamicArr.length == 0 
-                            ? 
+                            dynamicArr.length == 0
+                            ?
                             <div></div>
                             :
                             <p>{indexOfFirstItem + 1} to {indexOfLastItem > dynamicArr.length ? dynamicArr.length : indexOfLastItem} from {dynamicArr.length} items</p>
@@ -217,7 +232,7 @@ export default function Products() {
                     <div className="flex justify-center items-center mt-10 space-x-2">
                         {
                             dynamicArr.length == 0
-                            ? 
+                            ?
                             <div></div>
                             :
                             <Pagination key={"bordered"} initialPage={1} total={totalPages} variant={"bordered"} onChange={(page: any) => handlePageChange(page)} size="lg" className="text-white"/>
