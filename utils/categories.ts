@@ -2,8 +2,8 @@ import printer from "@/public/svg/printer.svg"
 import thermal from "@/public/svg/thermal.svg"
 import ink from "@/public/svg/ink.svg"
 import calculator from "@/public/svg/calculator.svg"
-import mouse from "@/public/svg/mouse.svg"
-// import keyboard from "@/public/svg/keyboard.svg"
+import tape from "@/public/svg/tape.svg"
+import computer from "@/public/svg/computer.svg"
 import flashdisk from "@/public/svg/flashdisk.svg"
 
 const categories = [
@@ -35,7 +35,7 @@ const categories = [
         id: 5,
         title: "Computer Acessories",
         value: "acessories",
-        icon: mouse
+        icon: computer
     },
     {
         id: 6,
@@ -45,9 +45,9 @@ const categories = [
     },
     {
         id: 7,
-        title: "Tape",
+        title: "Duct Tape",
         value: "tape",
-        icon: flashdisk
+        icon: tape
     },
 ];
 
