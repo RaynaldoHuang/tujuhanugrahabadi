@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PT. Tujuh Anugrah Abadi - The Most Comprehensive Printing & Technology Solutions in Indonesia",
     description: "PT. Tujuh Anugrah Abadi menyediakan solusi terbaik untuk kebutuhan Anda.",
-    url: "https://yourwebsite.com",
+    url: "https://www.7anugrah.com/",
     siteName: "PT. Tujuh Anugrah Abadi",
     locale: "id_ID",
     type: "website",
@@ -34,6 +34,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "PT. Tujuh Anugrah Abadi",
+              url: "https://www.7anugrah.com/",
+              logo: "https://www.7anugrah.com/svg/logo.svg",
+            }),
+          }}
+        />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />

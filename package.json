@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build && NEXT_PUBLIC_ESLINT_IGNORE=true",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@heroui/react": "^2.6.13",

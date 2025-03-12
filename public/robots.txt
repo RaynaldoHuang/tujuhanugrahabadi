@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.7anugrah.com/
+
+# Sitemaps
+Sitemap: https://www.7anugrah.com/sitemap.xml
