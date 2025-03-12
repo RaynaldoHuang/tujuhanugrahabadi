@@ -50,7 +50,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
-        <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+        <meta name="google-site-verification" content="14hnkJvIV11EP8l9d6qQcyQWbIXr38ZFiW7aULGUmCI" />
       </head>
       <body className={`${ubuntu.variable} antialiased`}>
         <Navigation />
