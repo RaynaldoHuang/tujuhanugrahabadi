@@ -75,7 +75,7 @@ export default function Footer() {
 
                                             <div className="flex">
                                                 <Image src={instagram} alt="" className="me-3 mb-5 w-6 lg:w-6" />
-                                                <Link href={"https://www.instagram.com/pt_tujuh_anugrah_abadi"} className="text-white lg:text-base text-sm">Instagram</Link>
+                                                <Link href={"https://www.instagram.com/superink_official_store/"} className="text-white lg:text-base text-sm">Instagram</Link>
                                             </div>
 
                                             <div className="flex">

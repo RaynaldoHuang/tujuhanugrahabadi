@@ -43,6 +43,9 @@ export default function RootLayout({
               name: "PT. Tujuh Anugrah Abadi",
               url: "https://www.7anugrah.com/",
               logo: "https://www.7anugrah.com/svg/logo.svg",
+              sameAs: [
+                "https://www.instagram.com/superink_official_store/",
+              ],
             }),
           }}
         />
